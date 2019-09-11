@@ -1,0 +1,14 @@
+﻿/*Aqui van los estilos generales como del navbar*/
+.navbarCustom {
+    background-color: #007DB4;
+}
+.items-juntos a{
+    color: white;
+    font-size: 100%;
+}
+
+.item-Brand a {
+    color: white;
+    font-size: 115%;
+}
+
