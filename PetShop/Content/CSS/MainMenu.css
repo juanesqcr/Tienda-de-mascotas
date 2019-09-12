@@ -1,5 +1,21 @@
-﻿.carousel-size{
-    height:100%;
-    width:100%;
+﻿.carousel-size {
+    height: 50%;
+    width: 100%;
 }
 
+.cards_holder {
+    margin-top: 1.5%;
+}
+
+.link_productos {
+    padding-left: 1%;
+    font-size: 0.9rem;
+}
+
+.img_padding{
+    padding-top:2%;
+}
+
+.titulo_principal{
+    font-size:1.4rem;
+}

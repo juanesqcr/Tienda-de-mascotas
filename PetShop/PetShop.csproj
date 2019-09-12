@@ -141,6 +141,9 @@
     <Content Include="Content\Imagenes\imagen-1.jpg" />
     <Content Include="Content\Imagenes\imagen-2.jpg" />
     <Content Include="Content\Imagenes\imagen-3.jpg" />
+    <Content Include="Content\Imagenes\juguete-1.jpg" />
+    <Content Include="Content\Imagenes\juguete-2.jpg" />
+    <Content Include="Content\Imagenes\juguete-3.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />

@@ -6,21 +6,25 @@
 
 <!DOCTYPE html>
 <html>
+
 <head>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title</title>
     <!--Links para bootstrap-->
     <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.min.css" />
     <script src="~/Scripts/jquery-3.4.1.slim.js"></script>
     <script src="~/Scripts/popper.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
     <!--Mis links Css-->
-    <link href="~/Content/CSS/MainMenu.css" rel="stylesheet" />
+    <link href="~/Content/CSS/MainMenu.css" type="text/css" rel="stylesheet" />
+
 </head>
+
 <body>
     <!--Carrusel-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide carousel-size" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -47,5 +51,67 @@
         </a>
     </div>
     <!--Fin del carusel-->
-</body> 
+    <br />
+    <br />
+    <!--Cuerpo-->
+
+    <div class="container">
+
+        <!--Titulo-->
+        <div class="titulo">
+            <h4 class="titulo_principal">Nuestros Nuevos Productos<span class="link_productos">@Html.ActionLink("Ver todos", "Productos", "MainMenu", new { @class = "elements" }, null)</span></h4>
+        </div>
+        <!--Fin del titulo-->
+        <!--Items-->
+        <div class="cards_holder row">
+
+            <div class="card col-sm-3" style="width: 18rem;">
+                <img src="~/Content/Imagenes/juguete-1.jpg" class="card-img-top img_padding" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Precio</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Ver Producto</a>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="card col-sm-3 " style="width: 18rem;">
+                <img src="~/Content/Imagenes/juguete-2.jpg" class="card-img-top img_padding" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Precio</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Ver Producto</a>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="card col-sm-3" style="width: 18rem;">
+                <img src="~/Content/Imagenes/juguete-3.jpg" class="card-img-top img_padding" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Precio</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Ver Producto</a>
+                </div>
+            </div>
+
+        </div>
+        <!--Fin de Items-->
+
+    </div>
+    <!--Fin del cuerpoCuerpo-->
+
+</body>
 </html>
