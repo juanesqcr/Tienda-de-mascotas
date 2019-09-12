@@ -14,8 +14,53 @@
 
 .img_padding{
     padding-top:2%;
+    width:253px;
+    height: 258px;
 }
 
 .titulo_principal{
     font-size:1.4rem;
 }
+
+.info_general_producto {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.img_info_general{
+    height:100%;
+    width:100%;
+}
+
+.cards_margin{
+    margin-top:1%;
+}
+
+/*Css de la cartas*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #007DB4;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+    .card button:hover {
+        opacity: 0.7;
+    }

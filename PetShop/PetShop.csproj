@@ -136,11 +136,13 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\CSS\Contactenos.css" />
     <Content Include="Content\CSS\GeneralStyles.css" />
     <Content Include="Content\CSS\MainMenu.css" />
     <Content Include="Content\Imagenes\imagen-1.jpg" />
     <Content Include="Content\Imagenes\imagen-2.jpg" />
     <Content Include="Content\Imagenes\imagen-3.jpg" />
+    <Content Include="Content\Imagenes\infogeneral.jpg" />
     <Content Include="Content\Imagenes\juguete-1.jpg" />
     <Content Include="Content\Imagenes\juguete-2.jpg" />
     <Content Include="Content\Imagenes\juguete-3.jpg" />

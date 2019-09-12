@@ -3,6 +3,27 @@
     ViewBag.Title = "Contacto";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>@ViewBag.Title</title>
+        <!--Mis links Css-->
+        <link href="~/Content/CSS/Contactenos.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container container_background">
 
-<h2>Contacto</h2>
 
+            <label for="lnombre">Nombre</label>
+            <input type="text" id="fname" name="firstname" placeholder="Nombre..">
+
+            <label for="lcorreo">Correo</label>
+            <input type="text" id="lname" name="lastname" placeholder="Correo..">
+
+            <label for="subject">Motivo</label>
+            <textarea id="subject" name="subject" placeholder="Escribe algo.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </div>
+    </body>

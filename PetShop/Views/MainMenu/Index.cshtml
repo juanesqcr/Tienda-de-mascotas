@@ -57,54 +57,55 @@
 
     <div class="container">
 
-        <!--Titulo-->
+        <!--Titulo de info general-->
         <div class="titulo">
-            <h4 class="titulo_principal">Nuestros Nuevos Productos<span class="link_productos">@Html.ActionLink("Ver todos", "Productos", "MainMenu", new { @class = "elements" }, null)</span></h4>
+            <h4 class="titulo_principal">Nuestros Productos</h4>
         </div>
         <!--Fin del titulo-->
+
+        <!--Parte de info de la empresa-->
+        <div class="info_general_producto">
+            <div class="row">
+                    <div class="col-sm-6">
+                        <img src="~/Content/Imagenes/infogeneral.jpg" alt="Alternate Text" class="img_info_general" />
+                    </div>
+                    <div class="col-sm-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam at magna in cursus. Duis ac vulputate tellus. Sed varius nisl a arcu pulvinar, nec porttitor arcu rhoncus. Sed non lorem vel purus elementum vehicula. Donec non blandit felis, eu tincidunt ligula. Praesent id scelerisque turpis. Aliquam ultricies, mauris sed.</p>
+                    </div>
+            </div>
+        </div>
+        <!--Fin Parte de info de la empresa-->
+
+        <!--Titulo de productos-->
+        <div class="titulo">
+            <h4 class="titulo_principal">Nuevos Productos<span class="link_productos">@Html.ActionLink("Ver todos", "Productos", "MainMenu", new { @class = "elements" }, null)</span></h4>
+        </div>
+        <!--Fin del titulo-->
+
         <!--Items-->
         <div class="cards_holder row">
 
-            <div class="card col-sm-3" style="width: 18rem;">
-                <img src="~/Content/Imagenes/juguete-1.jpg" class="card-img-top img_padding" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Precio</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Ver Producto</a>
-                </div>
+            <div class="card col-sm-3">
+                <img src="~/Content/Imagenes/juguete-1.jpg" alt="Denim Jeans" style="width:100%" class="img_padding">
+                <h1>Juguete 1</h1>
+                <p class="price">$19.99</p>
+                <p>Algo de los juguetes..</p>
+                <p><button>Ver Juguete</button></p>
             </div>
-            <div class="col-sm-1"></div>
-            <div class="card col-sm-3 " style="width: 18rem;">
-                <img src="~/Content/Imagenes/juguete-2.jpg" class="card-img-top img_padding" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Precio</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Ver Producto</a>
-                </div>
+
+            <div class="card col-sm-3">
+                <img src="~/Content/Imagenes/juguete-2.jpg" alt="Juguete" style="width:100%" class="img_padding">
+                <h1>Juguete 2</h1>
+                <p class="price">$19.99</p>
+                <p>Algo de los juguetes..</p>
+                <p><button>Ver Juguete</button></p>
             </div>
-            <div class="col-sm-1"></div>
-            <div class="card col-sm-3" style="width: 18rem;">
-                <img src="~/Content/Imagenes/juguete-3.jpg" class="card-img-top img_padding" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Precio</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Ver Producto</a>
-                </div>
+            <div class="card col-sm-3">
+                <img src="~/Content/Imagenes/juguete-3.jpg" alt="Juguete" style="width:100%" class="img_padding">
+                <h1>Juguete 3</h1>
+                <p class="price">$19.99</p>
+                <p>Algo de los juguetes..</p>
+                <p><button>Ver Juguete</button></p>
             </div>
 
         </div>
