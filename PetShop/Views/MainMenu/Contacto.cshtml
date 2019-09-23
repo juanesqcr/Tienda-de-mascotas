@@ -9,18 +9,19 @@
         <title>@ViewBag.Title</title>
         <!--Mis links Css-->
         <link href="~/Content/CSS/Contactenos.css" type="text/css" rel="stylesheet" />
+        <link href="~/Content/CSS/GeneralStyles.css" type="text/css" rel="stylesheet" />
     </head>
     <body>
-        <div class="container container_background">
+        <div class="container container_background bodyProductos">
 
 
-            <label for="lnombre">Nombre</label>
+            <label for="lnombre" class="label">Nombre</label>
             <input type="text" id="fname" name="firstname" placeholder="Nombre..">
 
-            <label for="lcorreo">Correo</label>
+            <label for="lcorreo" class="label">Correo</label>
             <input type="text" id="lname" name="lastname" placeholder="Correo..">
 
-            <label for="subject">Motivo</label>
+            <label for="subject" class="label">Motivo</label>
             <textarea id="subject" name="subject" placeholder="Escribe algo.." style="height:200px"></textarea>
 
             <input type="submit" value="Submit">

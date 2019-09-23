@@ -123,6 +123,8 @@ D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\roslyn\vbc.rs
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\roslyn\VBCSCompiler.exe
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\roslyn\VBCSCompiler.exe.config
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\Antlr3.Runtime.dll
+D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\EntityFramework.dll
+D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\EntityFramework.SqlServer.dll
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\Microsoft.Web.Infrastructure.dll
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\Newtonsoft.Json.dll
@@ -134,6 +136,8 @@ D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\System.Web.We
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\System.Web.WebPages.dll
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\System.Web.WebPages.Razor.dll
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\WebGrease.dll
+D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\EntityFramework.xml
+D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\EntityFramework.SqlServer.xml
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\System.Web.Helpers.xml
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\System.Web.Mvc.xml
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\System.Web.Optimization.xml

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PetStoreModel1StoreContainer" CdmEntityContainer="PetStoreEntities2">
+    <EntitySetMapping Name="Productos">
+      <EntityTypeMapping TypeName="PetStoreModel1.Producto">
+        <MappingFragment StoreEntitySet="Productos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Cantidad_Comprados" ColumnName="Cantidad_Comprados" />
+          <ScalarProperty Name="Fecha_Agregado" ColumnName="Fecha_Agregado" />
+          <ScalarProperty Name="Video" ColumnName="Video" />
+          <ScalarProperty Name="Foto" ColumnName="Foto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -3,8 +3,18 @@
     width: 100%;
 }
 
+
+
 .cards_holder {
     margin-top: 1.5%;
+}
+
+.top-margin{
+    margin-top:40px;
+}
+
+.top-margin-cards {
+    margin-top: 12px;
 }
 
 .link_productos {
@@ -18,13 +28,39 @@
     height: 258px;
 }
 
-.titulo_principal{
-    font-size:1.4rem;
+.titulo {
+    border-bottom: 0.5px solid;
+    border-color: #E7E7E7;
+    margin-bottom: 20px;
+}
+
+.carousel-top-margin {
+    padding-top: 60px;
+}
+
+.titulo_principal {
+    color: #1F2F7D;
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+
+.titulo-secundario {
+    color: #1F2F7D;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    text-align:center;
+}
+
+.parrafo {
+    padding-right: 20px;
+    padding-left: 10px;
 }
 
 .info_general_producto {
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding: 1%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .img_info_general{
@@ -41,7 +77,6 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: auto;
     text-align: center;
-    font-family: arial;
 }
 
 .price {
@@ -64,3 +99,6 @@
     .card button:hover {
         opacity: 0.7;
     }
+
+    /*Del la card de info de la empresa*/
+

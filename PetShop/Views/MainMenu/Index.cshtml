@@ -19,101 +19,101 @@
     <script src="~/Scripts/bootstrap.min.js"></script>
     <!--Mis links Css-->
     <link href="~/Content/CSS/MainMenu.css" type="text/css" rel="stylesheet" />
+    <link href="~/Content/CSS/GeneralStyles.css" type="text/css" rel="stylesheet" />
 
 </head>
 
 <body>
-    <!--Carrusel-->
-    <div id="carouselExampleIndicators" class="carousel slide carousel-size" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner img-fluid ">
-            <div class="carousel-item active">
-                <img src="~/Content/Imagenes/imagen-2.jpg" class="img-responsive carousel-size" alt="...">
+    <div>
+        <!--Carrusel-->
+        <div id="carouselExampleIndicators" class="carousel slide carousel-size carousel-top-margin" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner img-fluid ">
+                <div class="carousel-item active">
+                    <img src="~/Content/Imagenes/imagen-2.jpg" class="img-responsive carousel-size" alt="...">
+                </div>
+                <div class="carousel-item ">
+                    <img src="~/Content/Imagenes/imagen-1.jpg" class="img-responsive carousel-size" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="~/Content/Imagenes/imagen-3.jpg" class="img-responsive carousel-size" alt="...">
+                </div>s
             </div>
-            <div class="carousel-item ">
-                <img src="~/Content/Imagenes/imagen-1.jpg" class="img-responsive carousel-size" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="~/Content/Imagenes/imagen-3.jpg" class="img-responsive carousel-size" alt="...">
-            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-    <!--Fin del carusel-->
-    <br />
-    <br />
-    <!--Cuerpo-->
+        <!--Fin del carusel-->
+        <br />
+        <br />
+        <!--Cuerpo-->
 
-    <div class="container">
+        <div class="container">
 
-        <!--Titulo de info general-->
-        <div class="titulo">
-            <h4 class="titulo_principal">Nuestros Productos</h4>
-        </div>
-        <!--Fin del titulo-->
 
-        <!--Parte de info de la empresa-->
-        <div class="info_general_producto">
-            <div class="row">
+            <!--Parte de info de la empresa-->
+            <div class="info_general_producto">
+                <!--Titulo de info general-->
+                <div class="titulo">
+                    <h4 class="titulo_principal">Nuestros Productos</h4>
+                </div>
+                <!--Fin del titulo-->
+                <div class="row">
                     <div class="col-sm-6">
                         <img src="~/Content/Imagenes/infogeneral.jpg" alt="Alternate Text" class="img_info_general" />
                     </div>
                     <div class="col-sm-6">
-                        <h3>Nombre de la empresa</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam at magna in cursus. Duis ac vulputate tellus. Sed varius nisl a arcu pulvinar, nec porttitor arcu rhoncus. Sed non lorem vel purus elementum vehicula. Donec non blandit felis, eu tincidunt ligula. Praesent id scelerisque turpis. Aliquam ultricies, mauris sed.</p>
+                        <h3 class="titulo-secundario">Nombre de la empresa</h3>
+                        <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam at magna in cursus. Duis ac vulputate tellus. Sed varius nisl a arcu pulvinar, nec porttitor arcu rhoncus. Sed non lorem vel purus elementum vehicula. Donec non blandit felis, eu tincidunt ligula. Praesent id scelerisque turpis. Aliquam ultricies, mauris sed.</p>
                     </div>
+                </div>
             </div>
+            <!--Fin Parte de info de la empresa-->
+            <!--Titulo de productos-->
+            <!--Fin del titulo-->
+            <!--Items-->
+            <div class="info_general_producto cards_holder top-margin">
+                <div class="titulo">
+                    <h4 class="titulo_principal">Nuevos Productos<span class="link_productos">@Html.ActionLink("Ver todos", "Productos", "MainMenu", new { @class = "elements" }, null)</span></h4>
+                </div>
+
+                <div class="cards_holder row ">
+
+                    <div class="card col-sm-3">
+                        <img src="~/Content/Imagenes/juguete-1.jpg" alt="Denim Jeans" style="width:100%" class="img_padding">
+                        <h1>Nivel 1</h1>
+                        <p>Algo de los juguetes..</p>
+                        <p><button>Ver Juguete</button></p>
+                    </div>
+
+                    <div class="card col-sm-3 top-margin-cards">
+                        <img src="~/Content/Imagenes/juguete-2.jpg" alt="Juguete" style="width:100%" class="img_padding">
+                        <h1>Nivel 2</h1>
+                        <p>Algo de los juguetes..</p>
+                        <p><button>Ver Juguete</button></p>
+                    </div>
+                    <div class="card col-sm-3">
+                        <img src="~/Content/Imagenes/juguete-3.jpg" alt="Juguete" style="width:100%" class="img_padding">
+                        <h1>Nivel 3</h1>
+                        <p>Algo de los juguetes..</p>
+                        <p><button>Ver Juguete</button></p>
+                    </div>
+
+                </div>
+            </div>
+            <!--Fin de Items-->
+
         </div>
-        <!--Fin Parte de info de la empresa-->
-
-        <!--Titulo de productos-->
-        <div class="titulo">
-            <h4 class="titulo_principal">Nuevos Productos<span class="link_productos">@Html.ActionLink("Ver todos", "Productos", "MainMenu", new { @class = "elements" }, null)</span></h4>
-        </div>
-        <!--Fin del titulo-->
-
-        <!--Items-->
-        <div class="cards_holder row">
-
-            <div class="card col-sm-3">
-                <img src="~/Content/Imagenes/juguete-1.jpg" alt="Denim Jeans" style="width:100%" class="img_padding">
-                <h1>Juguete 1</h1>
-                <p class="price">$19.99</p>
-                <p>Algo de los juguetes..</p>
-                <p><button>Ver Juguete</button></p>
-            </div>
-
-            <div class="card col-sm-3">
-                <img src="~/Content/Imagenes/juguete-2.jpg" alt="Juguete" style="width:100%" class="img_padding">
-                <h1>Juguete 2</h1>
-                <p class="price">$19.99</p>
-                <p>Algo de los juguetes..</p>
-                <p><button>Ver Juguete</button></p>
-            </div>
-            <div class="card col-sm-3">
-                <img src="~/Content/Imagenes/juguete-3.jpg" alt="Juguete" style="width:100%" class="img_padding">
-                <h1>Juguete 3</h1>
-                <p class="price">$19.99</p>
-                <p>Algo de los juguetes..</p>
-                <p><button>Ver Juguete</button></p>
-            </div>
-
-        </div>
-        <!--Fin de Items-->
-
+        <!--Fin del cuerpoCuerpo-->
     </div>
-    <!--Fin del cuerpoCuerpo-->
-
 </body>
 </html>

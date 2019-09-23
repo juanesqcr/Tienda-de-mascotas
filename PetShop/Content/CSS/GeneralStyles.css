@@ -1,14 +1,43 @@
 ﻿/*Aqui van los estilos generales como del navbar*/
 .navbarCustom {
     background-color: #007DB4;
+    position:fixed;
+    z-index:10;
+    width:100%;
 }
-.items-juntos a{
+
+.items-juntos a {
     color: white;
     font-size: 100%;
 }
-
+.linea {
+    
+    border-right: 0.5px solid;
+    border-color: #E7E7E7;
+}
 .item-Brand a {
     color: white;
     font-size: 115%;
+
 }
+
+body {
+    background-color: #F2F2F2;
+    font-family: Noto Sans;
+    text-align: justify;
+    
+}
+
+.container {
+    width: 100%;
+    padding-right: 1px;
+    padding-left: 1px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bodyProductos {
+    padding-top: 60px;
+}
+
 
