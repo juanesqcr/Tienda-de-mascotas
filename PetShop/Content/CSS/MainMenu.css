@@ -3,7 +3,32 @@
     width: 100%;
 }
 
+.middleMenu {
+    margin-top:40px;
+    height:100px;
+    background-color: #007DB4;
 
+}
+
+.containerImgMiddle{
+    text-align:center;
+}
+
+.imgMiddle {
+    max-height: 99px;
+    text-align: right;
+    opacity: 0.7;
+}
+    .imgMiddle:hover {
+        opacity: 1;    
+         
+    }
+
+.link-icon {
+    background-image: url(../Imagenes/ninaottossonlogo.png);
+    max-height:99px;
+    max-width:226px;
+}
 
 .cards_holder {
     margin-top: 1.5%;

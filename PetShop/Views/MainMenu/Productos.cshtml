@@ -13,9 +13,7 @@
     <title>@ViewBag.Title</title>
     <!--Links para bootstrap-->
     <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.min.css" />
-    <script src="~/Scripts/jquery-3.4.1.slim.js"></script>
-    <script src="~/Scripts/popper.min.js"></script>
-    <script src="~/Scripts/bootstrap.min.js"></script>
+
     <!--Mis links Css-->
     <link href="~/Content/CSS/GeneralStyles.css" type="text/css" rel="stylesheet" />
     <link href="~/Content/CSS/Productos.css" type="text/css" rel="stylesheet" />
@@ -23,190 +21,238 @@
 <body>
     <div class="container container-custom pt-60">
         <img src="~/Content/Imagenes/perro-jugando-con-pelota-1.jpg" alt="Alternate Text" class="img-size img-fluid" />
+        <!--Nivel 1-->
         <h1>Nivel 1</h1>
-
-        <div class="container page-wrapper row">
-            <div class="page-inner col-sm-3  border-delineado">
+        <!--start row-->
+        <div class="row">
+            <!--Juguete 1-->
+            <!--card-->
+            <div class="container page-wrapper col-3">
                 <div class="row">
-                    <div class="el-wrapper">
-                        <div class="box-up">
-                            <img class="img" src="~/Images/Products/juguete-1.jpg" alt="">
-
-                            <div class="img-info">
-                                <div class="info-inner">
-                                    <span class="p-name">Juguete</span>
-                                    <span class="p-company">aaaaaa</span>
+                    <div class="page-inner border-delineado">
+                        <div class="col-4">
+                            <div class="el-wrapper">
+                                <div class="box-up">
+                                    <img class="img img-fluid" src="~/Images/Products/Nivel1/Juguete1/138312628-origpic-c12567.jpg" alt="">
+                                    <div class="img-info">
+                                        <div class="info-inner">
+                                            <span class="p-name">Treat Tumble</span>
+                                            <span class="p-company">Llene la bola con las golosinas favoritas de su mascota y deje que juegue con ella hasta que descubra cómo liberarlas</span>
+                                        </div>
+                                        <div class="a-size">Nivel : <span class="size">1</span></div>
+                                    </div>
                                 </div>
-                                <div class="a-size">Nivel : <span class="size">1</span></div>
-                            </div>
-                        </div>
 
-                        <div class="box-down">
-                            <div class="h-bg">
-                                <div class="h-bg-inner"></div>
-                            </div>
+                                <div class="box-down">
+                                    <div class="h-bg">
+                                        <div class="h-bg-inner"></div>
+                                    </div>
 
-                            <a class="cart" href="#">
-                                <span class="price">$120</span>
-                                <span class="add-to-cart">
-                                    <span class="txt">Ver Detalles</span>
-                                </span>
-                            </a>
+                                    <a class="cart" href="#">
+                                        <span class="price">$120</span>
+                                        <span class="add-to-cart">
+                                            <span class="txt">Ver Detalles</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="page-inner col-sm-3 border-delineado">
-                <div class="row">
-                    <div class="el-wrapper">
-                        <div class="box-up">
-                            <img class="img" src="~/Images/Products/juguete-1.jpg" alt="">
-                            <div class="img-info">
-                                <div class="info-inner">
-                                    <span class="p-name">Juguete</span>
-                                    <span class="p-company">aaaaaa</span>
+            <!--end card-->
+            <!--card-->
+            <!--Juguete 2-->
+            <div class="container page-wrapper col-3">
+                <div class="page-inner">
+                    <div class="row">
+                        <div class="el-wrapper">
+                            <div class="box-up">
+                                <img class="img img-fluid" src="~/Images/Products/Nivel1/Juguete2/138331782-origpic-dbc01c.jpg" alt="">
+                                <div class="img-info">
+                                    <div class="info-inner">
+                                        <span class="p-name">Dog Composite</span>
+                                        <span class="p-company">El Dog Composite es ideal para presentarle a tu perro nuevos rompecabezas y juegos, mientras lo prepara para próximos más desafiantes.</span>
+                                    </div>
+                                    <div class="a-size">Nivel : <span class="size">1</span></div>
                                 </div>
-                                <div class="a-size">Nivel : <span class="size">1</span></div>
-                            </div>
-                        </div>
-
-                        <div class="box-down">
-                            <div class="h-bg">
-                                <div class="h-bg-inner"></div>
                             </div>
 
-                            <a class="cart" href="#">
-                                <span class="price">$120</span>
-                                <span class="add-to-cart">
-                                    <span class="txt">Ver Detalles</span>
-                                </span>
-                            </a>
+                            <div class="box-down">
+                                <div class="h-bg">
+                                    <div class="h-bg-inner"></div>
+                                </div>
+
+                                <a class="cart" href="#">
+                                    <span class="price">$120</span>
+                                    <span class="add-to-cart">
+                                        <span class="txt">Ver Detalles</span>
+                                    </span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="page-inner col-sm-3 border-delineado size-card">
-                <div class="row">
-                    <div class="el-wrapper">
-                        <div class="box-up">
-                            <img class="img" src="~/Images/Products/juguete-2.jpg" alt="">
-                            <div class="img-info">
-                                <div class="info-inner">
-                                    <span class="p-name">Juguete</span>
-                                    <span class="p-company">aaaaaa</span>
-                                </div>
-                                <div class="a-size">Nivel : <span class="size">1</span></div>
-                            </div>
-                        </div>
-
-                        <div class="box-down">
-                            <div class="h-bg">
-                                <div class="h-bg-inner"></div>
-                            </div>
-
-                            <a class="cart" href="#">
-                                <span class="price">$120</span>
-                                <span class="add-to-cart">
-                                    <span class="txt">Ver Detalles</span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+            <!--end card-->
+          
         </div>
+        <!--end row-->
+        <!--Nivel 2-->
         <h1>Nivel 2</h1>
-        <div class="container page-wrapper row">
-            <div class="page-inner col-sm-3  border-delineado">
+        <!--start row-->
+        <div class="row">
+            <!--Juguete 1-->
+            <!--card-->
+            <div class="container page-wrapper col-3">
                 <div class="row">
-                    <div class="el-wrapper">
-                        <div class="box-up">
-                            <img class="img" src="~/Images/Products/juguete-1.jpg" alt="">
-
-                            <div class="img-info">
-                                <div class="info-inner">
-                                    <span class="p-name">Juguete</span>
-                                    <span class="p-company">aaaaaa</span>
+                    <div class="page-inner border-delineado">
+                        <div class="col-4">
+                            <div class="el-wrapper">
+                                <div class="box-up">
+                                    <img class="img img-fluid" src="~/Images/Products/Nivel2/Juguete1/138352680-origpic-cbb4ef.jpg" alt="">
+                                    <div class="img-info">
+                                        <div class="info-inner">
+                                            <span class="p-name">Dog Brick</span>
+                                            <span class="p-company">Juego de adiestramiento para perros inquietos, ayudando a prevenir el aburrimiento y los comportamientos destructivos.</span>
+                                        </div>
+                                        <div class="a-size">Nivel : <span class="size">2</span></div>
+                                    </div>
                                 </div>
-                                <div class="a-size">Nivel : <span class="size">2</span></div>
-                            </div>
-                        </div>
 
-                        <div class="box-down">
-                            <div class="h-bg">
-                                <div class="h-bg-inner"></div>
-                            </div>
+                                <div class="box-down">
+                                    <div class="h-bg">
+                                        <div class="h-bg-inner"></div>
+                                    </div>
 
-                            <a class="cart" href="#">
-                                <span class="price">$120</span>
-                                <span class="add-to-cart">
-                                    <span class="txt">Ver Detalles</span>
-                                </span>
-                            </a>
+                                    <a class="cart" href="#">
+                                        <span class="price">$120</span>
+                                        <span class="add-to-cart">
+                                            <span class="txt">Ver Detalles</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="page-inner col-sm-3 border-delineado">
-                <div class="row">
-                    <div class="el-wrapper">
-                        <div class="box-up">
-                            <img class="img" src="~/Images/Products/juguete-1.jpg" alt="">
-                            <div class="img-info">
-                                <div class="info-inner">
-                                    <span class="p-name">Juguete</span>
-                                    <span class="p-company">aaaaaa</span>
+            <!--end card-->
+            <!--card-->
+            <!--Juguete 2-->
+            <div class="container page-wrapper col-3">
+                <div class="page-inner">
+                    <div class="row">
+                        <div class="el-wrapper">
+                            <div class="box-up">
+                                <img class="img img-fluid" src="~/Images/Products/Nivel2/Juguete2/138346132-origpic-31930e.jpg" alt="">
+                                <div class="img-info">
+                                    <div class="info-inner">
+                                        <span class="p-name">Dog Tornado</span>
+                                        <span class="p-company">Con cuatro capas de diversión giratoria, el tornado ayuda a reducir el comportamiento destructivo y elimina el aburrimiento de su mascota.</span>
+                                    </div>
+                                    <div class="a-size">Nivel : <span class="size">2</span></div>
                                 </div>
-                                <div class="a-size">Nivel : <span class="size">2</span></div>
-                            </div>
-                        </div>
-
-                        <div class="box-down">
-                            <div class="h-bg">
-                                <div class="h-bg-inner"></div>
                             </div>
 
-                            <a class="cart" href="#">
-                                <span class="price">$120</span>
-                                <span class="add-to-cart">
-                                    <span class="txt">Ver Detalles</span>
-                                </span>
-                            </a>
+                            <div class="box-down">
+                                <div class="h-bg">
+                                    <div class="h-bg-inner"></div>
+                                </div>
+
+                                <a class="cart" href="#">
+                                    <span class="price">$120</span>
+                                    <span class="add-to-cart">
+                                        <span class="txt">Ver Detalles</span>
+                                    </span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="page-inner col-sm-3 border-delineado size-card">
-                <div class="row">
-                    <div class="el-wrapper">
-                        <div class="box-up">
-                            <img class="img" src="~/Images/Products/juguete-2.jpg" alt="">
-                            <div class="img-info">
-                                <div class="info-inner">
-                                    <span class="p-name">Juguete</span>
-                                    <span class="p-company">aaaaaa</span>
+            <!--end card-->
+            <!--Juguete 3-->
+            <!--card-->
+            <div class="container page-wrapper col-3">
+                <div class="page-inner">
+                    <div class="row">
+                        <div class="el-wrapper">
+                            <div class="box-up">
+                                <img class="img img-fluid" src="~/Images/Products/Nivel2/juguete3/138340636-origpic-527b16.jpg" alt="">
+                                <div class="img-info">
+                                    <div class="info-inner">
+                                        <span class="p-name">Dog Treat Maze</span>
+                                        <span class="p-company">Ejercite la mente y cuerpo de su mascota! Este juego es de tocar y voltear, fácil de usar y es ideal para mantener a su mascota entretenida. </span>
+                                    </div>
+                                    <div class="a-size">Nivel : <span class="size">2</span></div>
                                 </div>
-                                <div class="a-size">Nivel : <span class="size">2</span></div>
-                            </div>
-                        </div>
-
-                        <div class="box-down">
-                            <div class="h-bg">
-                                <div class="h-bg-inner"></div>
                             </div>
 
-                            <a class="cart" href="#">
-                                <span class="price">$120</span>
-                                <span class="add-to-cart">
-                                    <span class="txt">Ver Detalles</span>
-                                </span>
-                            </a>
+                            <div class="box-down">
+                                <div class="h-bg">
+                                    <div class="h-bg-inner"></div>
+                                </div>
+
+                                <a class="cart" href="#">
+                                    <span class="price">$120</span>
+                                    <span class="add-to-cart">
+                                        <span class="txt">Ver Detalles</span>
+                                    </span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!--end card-->
         </div>
+        <!--end row-->
+        <!--Nivel 3-->
+        <h1>Nivel 3</h1>
+        <!--start row-->
+        <div class="row">
+            <!--Juguete 1-->
+            <!--card-->
+            <div class="container page-wrapper col-3">
 
+                <div class="page-inner border-delineado">
+
+                    <div class="el-wrapper">
+                        <div class="box-up">
+                            <img class="img img-fluid" src="~/Images/Products/Nivel3/Juguete1/138416770-origpic-d78a95.jpg" alt="">
+                            <div class="img-info">
+                                <div class="info-inner">
+                                    <span class="p-name">Dog Casino</span>
+                                    <span class="p-company">En este juego de acertijo su mascota tendrá que girar los huesos en la parte superior para cerrar y abrir los cajones, mientras ella juega y aprende alegremente, usted la estará entrenando a través de pasos secuenciales. </span>
+                                </div>
+                                <div class="a-size">Nivel : <span class="size">3</span></div>
+                            </div>
+                        </div>
+
+                        <div class="box-down">
+                            <div class="h-bg">
+                                <div class="h-bg-inner"></div>
+                            </div>
+
+                            <a class="cart" href="#">
+                                <span class="price">$120</span>
+                                <span class="add-to-cart">
+                                    <span class="txt">Ver Detalles</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end card-->
+          
+        </div>
+        <!--end row-->
+
+    </div>
+    <script src="~/Scripts/jquery-3.4.1.slim.js"></script>
+    <script src="~/Scripts/popper.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
 </body>
 </html>

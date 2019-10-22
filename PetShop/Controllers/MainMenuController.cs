@@ -28,5 +28,9 @@ namespace PetShop.Controllers
         {
             return View();
         }
+        public ActionResult ProductosDetalles()
+        {
+            return View();
+        }
     }
 }
