@@ -128,6 +128,7 @@ D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\EntityFramewo
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\Microsoft.Web.Infrastructure.dll
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\Newtonsoft.Json.dll
+D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\NLog.dll
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\System.Web.Helpers.dll
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\System.Web.Mvc.dll
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\System.Web.Optimization.dll
@@ -138,6 +139,7 @@ D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\System.Web.We
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\WebGrease.dll
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\EntityFramework.xml
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\EntityFramework.SqlServer.xml
+D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\NLog.xml
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\System.Web.Helpers.xml
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\System.Web.Mvc.xml
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\System.Web.Optimization.xml
@@ -152,4 +154,3 @@ D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\obj\Debug\PetShop
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\obj\Debug\PetShop.csproj.CopyComplete
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\obj\Debug\PetShop.dll
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\obj\Debug\PetShop.pdb
-D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\obj\Debug\PetShop.csprojAssemblyReference.cache

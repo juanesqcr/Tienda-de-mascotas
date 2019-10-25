@@ -12,8 +12,17 @@ namespace PetShop.Models
         public string Title { get; set; }
         public string DescriptionShort { get; set; }
         public string Description { get; set; }
+        public string Characteristic1 { get; set; }
+        public string Characteristic2 { get; set; }
+        public string Characteristic3 { get; set; }
+        public string Photo1 { get; set; }
+        public string Photo2 { get; set; }
+        public string Photo3 { get; set; }
+        public string Photo4 { get; set; }
+        public string Photo5 { get; set; }
         public double Price { get; set; }
         public double OldPrice { get; set; }
+        public double Video { get; set; }
         public int IdCategory { get; set; }
 
         public string JsonPath { get; set; }
@@ -33,19 +42,12 @@ namespace PetShop.Models
 
         private string GetJsonProducts()
         {
-            try
-            {
+             
                 //string pathServer = new  System.Web.HttpContext.Current.Server.MapPath("/Content/Products.json");
                 var result = System.IO.File.ReadAllText(JsonPath);
                 return result;
 
-
-            }
-            catch (Exception ex)
-            {
-
-                return string.Empty;
-            }
+ 
         }
 
     }

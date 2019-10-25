@@ -1,12 +1,21 @@
-{
-  "Products": [
+ 
+  [
     {
       "Id": 1,
       "Title": "Treat Tumble",
-      "DescriptionShort": "LLENE LA BOLA CON LAS GOLOSINAS FAVORITAS DE SU MASCOTA Y DEJE QUE JUEGUE CON ELLA HASTA QUE DESCUBRA CÓMO LIBERARLAS",
-      "Description": "",
+      "DescriptionShort": "Llene la bola con las golosinas favoritas de su mascota y deje que juegue con ella hasta que descubra cómo liberarlas.",
+      "Description": "Este juego desafía las habilidades de resolución de problemas de su mascota y al mismo tiempo mejora la estimulación mental. Este juguete es ideal para introducir en su mascota los juegos de acertijos o rompecabezas. ",
+      "Characteristic1": "Funciona tanto en interiores como en exteriores",
+      "Characteristic2": "Tamaño pequeña: diámetro 10,5 cm",
+      "Characteristic3": "Tamaño grande: diámetro 13 cm",
+      "Photo1": "/Images/Products/Nivel1/Juguete1/138312628-origpic-c12567.jpg",
+      "Photo2": "/Images/Products/Nivel1/Juguete1/138312628-origpic-06bae4.jpg",
+      "Photso3": "/Images/Products/Nivel1/Juguete1/138312628-origpic-34b94c.jpg",
+      "Photo4": "/Images/Products/Nivel1/Juguete1/138321060-origpic-953fef.jpg",
+      "Photo5": "/Images/Products/Nivel1/Juguete1/138321060-origpic-f74c35.jpg",
       "Price": 220.50,
       "OldPrice": 220.50,
+      "Video": 220.50,
       "IdCategory": 1
 
     },
@@ -23,5 +32,4 @@
 
     
   ]
-
-}
+ 

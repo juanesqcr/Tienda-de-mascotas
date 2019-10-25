@@ -17,9 +17,20 @@ namespace PetShop.Controllers
         [Route("Product/{id}")]
         public ActionResult Index(int id)
         {
-            Models.Product modProduct = new Models.Product { JsonPath = System.Web.HttpContext.Current.Server.MapPath("/Content/Products.json") };
-            var productObj = modProduct.GetProductById(id);
-            ViewBag["Product"] = productObj;
+            try
+            {
+                Models.Product modProduct = new Models.Product { JsonPath = System.Web.HttpContext.Current.Server.MapPath("/Content/Products.json") };
+                var productObj = modProduct.GetProductById(id);
+          
+                return View(productObj);
+            }
+            catch (Exception ex)
+            {
+            
+                ViewBag["Error"] = "ERR0001";
+
+            }
+
             return View();
         }
     }
