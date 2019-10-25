@@ -1,0 +1,27 @@
+{
+  "Products": [
+    {
+      "Id": 1,
+      "Title": "Treat Tumble",
+      "DescriptionShort": "LLENE LA BOLA CON LAS GOLOSINAS FAVORITAS DE SU MASCOTA Y DEJE QUE JUEGUE CON ELLA HASTA QUE DESCUBRA CÓMO LIBERARLAS",
+      "Description": "",
+      "Price": 220.50,
+      "OldPrice": 220.50,
+      "IdCategory": 1
+
+    },
+    {
+      "Id": 2,
+      "Title": "Treat Tumble",
+      "DescriptionShort": "LLENE LA BOLA CON LAS GOLOSINAS FAVORITAS DE SU MASCOTA Y DEJE QUE JUEGUE CON ELLA HASTA QUE DESCUBRA CÓMO LIBERARLAS",
+      "Description": "",
+      "Price": 220.50,
+      "OldPrice": 220.50,
+      "IdCategory": 1
+
+    }
+
+    
+  ]
+
+}
