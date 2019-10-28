@@ -1,35 +1,123 @@
- 
-  [
-    {
-      "Id": 1,
-      "Title": "Treat Tumble",
-      "DescriptionShort": "Llene la bola con las golosinas favoritas de su mascota y deje que juegue con ella hasta que descubra cómo liberarlas.",
-      "Description": "Este juego desafía las habilidades de resolución de problemas de su mascota y al mismo tiempo mejora la estimulación mental. Este juguete es ideal para introducir en su mascota los juegos de acertijos o rompecabezas. ",
-      "Characteristic1": "Funciona tanto en interiores como en exteriores",
-      "Characteristic2": "Tamaño pequeña: diámetro 10,5 cm",
-      "Characteristic3": "Tamaño grande: diámetro 13 cm",
-      "Photo1": "/Images/Products/Nivel1/Juguete1/138312628-origpic-c12567.jpg",
-      "Photo2": "/Images/Products/Nivel1/Juguete1/138312628-origpic-06bae4.jpg",
-      "Photso3": "/Images/Products/Nivel1/Juguete1/138312628-origpic-34b94c.jpg",
-      "Photo4": "/Images/Products/Nivel1/Juguete1/138321060-origpic-953fef.jpg",
-      "Photo5": "/Images/Products/Nivel1/Juguete1/138321060-origpic-f74c35.jpg",
-      "Price": 220.50,
-      "OldPrice": 220.50,
-      "Video": 220.50,
-      "IdCategory": 1
-
-    },
-    {
-      "Id": 2,
-      "Title": "Treat Tumble",
-      "DescriptionShort": "LLENE LA BOLA CON LAS GOLOSINAS FAVORITAS DE SU MASCOTA Y DEJE QUE JUEGUE CON ELLA HASTA QUE DESCUBRA CÓMO LIBERARLAS",
-      "Description": "",
-      "Price": 220.50,
-      "OldPrice": 220.50,
-      "IdCategory": 1
-
-    }
-
+[
+  {
+    "Id": 1,
+    "Title": "Treat Tumble",
+    "DescriptionShort": "Llene la bola con las golosinas favoritas de su mascota y deje que juegue con ella hasta que descubra cómo liberarlas.",
+    "Description": "Este juego desafía las habilidades de resolución de problemas de su mascota y al mismo tiempo mejora la estimulación mental. Este juguete es ideal para introducir en su mascota los juegos de acertijos o rompecabezas. ",
+    "Characteristic1": "Funciona tanto en interiores como en exteriores",
+    "Characteristic2": "Tamaño pequeña: diámetro 10,5 cm",
+    "Characteristic3": "Tamaño grande: diámetro 13 cm",
+    "Photo1": "/Images/Products/Nivel1/Juguete1/138312628-origpic-c12567.jpg",
+    "Photo2": "/Images/Products/Nivel1/Juguete1/138312628-origpic-06bae4.jpg",
+    "Photo3": "/Images/Products/Nivel1/Juguete1/138312628-origpic-34b94c.jpg",
+    "Photo4": "/Images/Products/Nivel1/Juguete1/138321060-origpic-953fef.jpg",
+    "Photo5": "/Images/Products/Nivel1/Juguete1/138321060-origpic-f74c35.jpg",
+    "Price": 220.50,
+    "countCharacteristic": 3,
+    "countPhotos": 5,
+    "Video": "https://www.youtube.com/embed/JR5EIf6zJZw",
+    "IdCategory": 1
+  },
+  {
+    "Id": 2,
+    "Title": "Dog Composite",
+    "DescriptionShort": "El Dog Composite es ideal para presentarle a tu perro nuevos rompecabezas y juegos, mientras lo prepara para próximos más desafiantes.",
+    "Description": "Puede usarlo con croquetas húmedas o secas, perfecto para la hora de comer, y mientras lo alimenta le ayuda a desarrollar nuevas técnicas de aprendizaje.",
+    "Characteristic1": "Este juguete está elaborado con madera y plástico, obteniendo los beneficios de ambos. Es más duradero, fácil de limpiar y no se astillará ni se romperá mientras su perro juega con ella.",
+    "Characteristic2": "Tamaño: Diámetro 23 cm, altura 6 cm.",
+    "Characteristic3": "",
+    "Photo1": "/Images/Products/Nivel1/Juguete2/138331782-origpic-dbc01c.jpg",
+    "Photo2": "/Images/Products/Nivel1/Juguete2/138331782-origpic-b17e43.jpg",
+    "Photo3": "/Images/Products/Nivel1/Juguete2/138331782-origpic-cb8505.jpg",
+    "Photo4": "/Images/Products/Nivel1/Juguete2/138331782-origpic-d77a99.jpg",
+    "Photo5": "",
+    "Price": 220.50,
+    "countCharacteristic": 2,
+    "countPhotos": 4,
+    "Video": "https://www.youtube.com/embed/whS61TfL1SE",
+    "IdCategory": 1
+  },
+  {
+    "Id": 3,
+    "Title": "Dog Brick",
+    "DescriptionShort": "Juego de adiestramiento para perros inquietos, ayudando a prevenir el aburrimiento y los comportamientos destructivos.",
+    "Description": "Este juguete está hecho con compartimentos plegables, fáciles de abrir y cerrar para ocultar golosinas; además está equipado con piezas de rompecabezas extraíbles y separadas en forma de huesos, que ofrecen mayor desafío a su mascota.",
+    "Characteristic1": "Tamaño: 31,5x21 cm, altura 4cm.",
+    "Characteristic2": "",
+    "Characteristic3": "",
+    "Photo1": "/Images/Products/Nivel2/Juguete1/138352680-origpic-cbb4ef.jpg",
+    "Photo2": "/Images/Products/Nivel2/Juguete1/138352680-origpic-69a57b.jpg",
+    "Photo3": "/Images/Products/Nivel2/Juguete1/138352680-origpic-e02baf.jpg",
+    "Photo4": "/Images/Products/Nivel2/Juguete1/32668480_1947388738626835_4065406147341844480_n.jpg",
+    "Photo5": "",
+    "Price": 220.50,
+    "countCharacteristic": 1,
+    "countPhotos": 4,
+    "Video": "https://www.youtube.com/embed/BaV7Uv6Mdyg",
+    "IdCategory": 2
     
-  ]
- 
+  },
+  {
+    "Id": 4,
+    "Title": "Dog Tornado",
+    "DescriptionShort": "Con cuatro capas de diversión giratoria, el tornado ayuda a reducir el comportamiento destructivo y elimina el aburrimiento de su mascota.",
+    "Description": "Este juego cuenta con 12 compartimientos para golosinas secas y húmedas, convirtiéndolo en una opción inteligente y divertida para la hora de la comida. El movimiento giratorio mantiene a su perro atento y le presenta una forma divertida y desafiante de jugar de manera independiente.",
+    "Characteristic1": "Tamaño: 23,5x18 cm, altura 7cm",
+    "Characteristic2": "",
+    "Characteristic3": "",
+    "Photo1": "/Images/Products/Nivel2/Juguete2/138346132-origpic-31930e.jpg",
+    "Photo2": "/Images/Products/Nivel2/Juguete2/DogTornado_ice_cream.jpg",
+    "Photo3": "/Images/Products/Nivel2/Juguete2/138346132-origpic-139a09.jpg",
+    "Photo4": "/Images/Products/Nivel2/Juguete2/138346132-origpic-9aea7a.jpg",
+    "Photo5": "/Images/Products/Nivel2/Juguete2/dogtornado_cats.jpg",
+    "Photo6": "/Images/Products/Nivel2/Juguete2/DogTornado_&_cat.jpg",
+    "Price": 220.50,
+    "countCharacteristic": 1,
+    "countPhotos": 6,
+    "Video": "https://www.youtube.com/embed/89oUODRAlB0",
+    "IdCategory": 2
+
+  },
+  {
+    "Id": 5,
+    "Title": "Dog Treat Maze",
+    "DescriptionShort": "Coloque golosinas o croquetas en ambos lados del orificio central superior y observe cómo su perro lo pone en movimiento para liberarlos.",
+    "Description": "Después de llenar el laberinto, agite un poco el platillo para liberar el aroma de las golosinas y ayudar a su perro a comprender que le están esperando adentro.",
+    "Characteristic1": "Tamaño: diámetro 18 cm. ",
+    "Characteristic2": "",
+    "Characteristic3": "",
+    "Photo1": "/Images/Products/Nivel2/juguete3/138340636-origpic-527b16.jpg",
+    "Photo2": "/Images/Products/Nivel2/juguete3/138340636-origpic-00e2ee.jpg",
+    "Photo3": "/Images/Products/Nivel2/juguete3/13373666-origpic-0393f7.jpg",
+    "Photo4": "/Images/Products/Nivel2/juguete3/13373666-origpic-988531.jpg",
+    "Photo5": "/Images/Products/Nivel2/juguete3/138340636-origpic-182b2d.jpg",
+    "Photo6": "/Images/Products/Nivel2/juguete3/138340636-origpic-c9bce3.jpg",
+    "Price": 220.50,
+    "countCharacteristic": 1,
+    "countPhotos": 6,
+    "Video": "https://www.youtube.com/embed/89oUODRAlB0",
+    "IdCategory": 2
+
+  },
+  {
+    "Id": 6,
+    "Title": "Dog Casino",
+    "DescriptionShort": "Coloque el juego en el piso y anime a su mascota a buscar golosinas. Los perros son más inteligentes de lo que piensas. ¡A veces solo necesitamos enseñarles! ",
+    "Description": "Con los huesos en posición desbloqueada, abra los cajones y deje caer golosinas o croquetas. Cierra los cajones y coloque los huesos en posición de bloqueo. Las primeras veces deje los huesos desbloqueados y uno o dos cajones abiertos para facilitar la comprensión de su perro.",
+    "Characteristic1": "Tamaño:  31,5 x 26 cm, altura 4,5 cm.",
+    "Characteristic2": "No tiene piezas desmontables",
+    "Characteristic3": "",
+    "Photo1": "/Images/Products/Nivel3/Juguete1/138416770-origpic-d78a95.jpg",
+    "Photo2": "/Images/Products/Nivel3/Juguete1/138416770-origpic-44c196.jpg",
+    "Photo3": "/Images/Products/Nivel3/Juguete1/138416770-origpic-debb43.jpg",
+    "Photo4": "/Images/Products/Nivel3/Juguete1/DogCasino_Lexus-.jpg",
+    "Photo5": "",
+    "Price": 220.50,
+    "countCharacteristic": 2,
+    "countPhotos": 4,
+    "Video": "https://www.youtube.com/embed/OkQrPlX0ECI",
+    "IdCategory": 3
+
+  }
+
+]

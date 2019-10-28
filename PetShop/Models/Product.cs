@@ -20,9 +20,11 @@ namespace PetShop.Models
         public string Photo3 { get; set; }
         public string Photo4 { get; set; }
         public string Photo5 { get; set; }
+        public string Photo6 { get; set; }
         public double Price { get; set; }
-        public double OldPrice { get; set; }
-        public double Video { get; set; }
+        public double countCharacteristic { get; set; }
+        public double countPhotos { get; set; }
+        public string Video { get; set; }
         public int IdCategory { get; set; }
 
         public string JsonPath { get; set; }
