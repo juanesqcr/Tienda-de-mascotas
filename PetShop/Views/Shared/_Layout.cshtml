@@ -47,8 +47,21 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <section id="lab_social_icon_footer">
+                <!-- Include Font Awesome Stylesheet in Header -->
+                <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+                <div class="container">
+                    <div class="text-center center-block">
+                        <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                        <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                        <a href="https://instagram.com/"><i id="social-gp" class="fa fa-instagram fa-3x social""></i></a>
+                       
+                    </div>
+                </div>
+            </section>
         </footer>
+
+
     </div>
     @RenderSection("scripts", required: false)
 </body>

@@ -139,29 +139,11 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MainMenuController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
-    <Compile Include="Controllers\ProductosController.cs" />
-    <Compile Include="DBModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DBModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="DBModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DBModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="DBModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DBModel.edmx</DependentUpon>
-    </Compile>
+    <Compile Include="Controllers\SharedController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Product.cs" />
-    <Compile Include="Producto.cs">
-      <DependentUpon>DBModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -172,12 +154,11 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\CSS\Contactenos.css" />
+    <Content Include="Content\CSS\Error404.css" />
     <Content Include="Content\CSS\GeneralStyles.css" />
     <Content Include="Content\CSS\MainMenu.css" />
     <Content Include="Content\CSS\SingleProduct.css" />
     <Content Include="Content\CSS\Productos.css" />
-    <Content Include="Content\CSS\ProductosCss\CreateProducto.css" />
-    <Content Include="Content\CSS\ProductosCss\IndexProducto.css" />
     <Content Include="Content\Imagenes\imagen-1.jpg" />
     <Content Include="Content\Imagenes\imagen-2.jpg" />
     <Content Include="Content\Imagenes\imagen-3.jpg" />
@@ -188,20 +169,22 @@
     <Content Include="Content\Imagenes\ninaottossonlogo.png" />
     <Content Include="Content\Imagenes\perro-jugando-con-pelota-1.jpg" />
     <Content Include="Content\Imagenes\perro-jugando-con-pelota.jpg" />
-    <Content Include="DBModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DBModel.edmx</DependentUpon>
-      <LastGenOutput>DBModel.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="DBModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DBModel.edmx</DependentUpon>
-      <LastGenOutput>DBModel.cs</LastGenOutput>
-    </Content>
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\Errors\depositphotos_179080780-stock-illustration-error-404-creative-illustration-dachshund.jpg" />
     <Content Include="Images\Logos\ninaottossonlogo.png" />
+    <Content Include="Images\Products\Bionic\b01mqiwgvc.main_1.jpg" />
+    <Content Include="Images\Products\Bionic\b01n0dpiwr.main.jpg" />
+    <Content Include="Images\Products\Bionic\b01n2ga03x.main_1.jpg" />
+    <Content Include="Images\Products\Bionic\b01n2gpzqj.main.jpg" />
+    <Content Include="Images\Products\Bionic\bionic-2-in-1-toss-n-tug-ring-durable-dog-toy_2.jpg" />
+    <Content Include="Images\Products\Bionic\bionic-toss-n-tug_orange_dtc.jpg" />
+    <Content Include="Images\Products\Bionic\bionic-urban-stick-green.jpg" />
+    <Content Include="Images\Products\Bionic\bionic-urban-stick_large_green_dtc.jpg" />
+    <Content Include="Images\Products\Bionic\bionic-urban-stick_medium_green_dtc.jpg" />
+    <Content Include="Images\Products\Bionic\bionic-urban-stick_small_green_dtc.jpg" />
+    <Content Include="Images\Products\Bionic\Logo Bionic.png" />
     <Content Include="Images\Products\juguete-1.jpg" />
     <Content Include="Images\Products\juguete-2.jpg" />
     <Content Include="Images\Products\juguete-3.jpg" />
@@ -234,6 +217,22 @@
     <Content Include="Images\Products\Nivel3\Juguete1\138416770-origpic-d78a95.jpg" />
     <Content Include="Images\Products\Nivel3\Juguete1\138416770-origpic-debb43.jpg" />
     <Content Include="Images\Products\Nivel3\Juguete1\DogCasino_Lexus-.jpg" />
+    <Content Include="Images\Products\Outward-Hound\51004-fun-feeder-mini-orange-dtc.jpg" />
+    <Content Include="Images\Products\Outward-Hound\51004_fun-feeder-mini_orange_2018v_dtc_1_1.jpg" />
+    <Content Include="Images\Products\Outward-Hound\51006-fun-feeder-mini-teal-dtc.jpg" />
+    <Content Include="Images\Products\Outward-Hound\51006-fun-feeder-mini-teal-dtc_2.jpg" />
+    <Content Include="Images\Products\Outward-Hound\funfeeder_miniorng_1_1.jpg" />
+    <Content Include="Images\Products\Outward-Hound\groupisland_funfeeder_1.jpg" />
+    <Content Include="Images\Products\Outward-Hound\outward-hound.png" />
+    <Content Include="Images\Products\Outward-Hound\rc7_4783_5.jpg" />
+    <Content Include="Images\Products\Petstages\peekin-pals-interactive-cat-toy-petstages.jpg" />
+    <Content Include="Images\Products\Petstages\petstages-peekin-pals-interactive-cat-toy.jpg" />
+    <Content Include="Images\Products\Petstages\petstages-wobble-pond-cat-toy.jpg" />
+    <Content Include="Images\Products\Petstages\petstages.png" />
+    <Content Include="Images\Products\PlanetDog\68729.jpg" />
+    <Content Include="Images\Products\PlanetDog\68731.jpg" />
+    <Content Include="Images\Products\PlanetDog\68731_planet_dog_recycle_ball_value_pack.jpg" />
+    <Content Include="Images\Products\PlanetDog\planet-dog.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -256,13 +255,6 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <EntityDeploy Include="DBModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>DBModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="DBModel.edmx.diagram">
-      <DependentUpon>DBModel.edmx</DependentUpon>
-    </Content>
     <Content Include="Content\Products.json" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -296,10 +288,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\Prueba.cshtml" />
     <Content Include="Views\MainMenu\Index.cshtml" />
     <Content Include="Scripts\umd\popper.min.js.map" />
     <Content Include="Scripts\umd\popper.js.map" />
@@ -313,13 +301,12 @@
     <Content Include="Views\MainMenu\Contacto.cshtml" />
     <Content Include="Views\MainMenu\About.cshtml" />
     <Content Include="Views\MainMenu\Productos.cshtml" />
-    <Content Include="Views\Productos\Create.cshtml" />
-    <Content Include="Views\Productos\Delete.cshtml" />
-    <Content Include="Views\Productos\Details.cshtml" />
-    <Content Include="Views\Productos\Edit.cshtml" />
-    <Content Include="Views\Productos\Index.cshtml" />
-    <Content Include="Views\MainMenu\ProductosDetalles.cshtml" />
     <Content Include="Views\Product\Index.cshtml" />
+    <Content Include="Views\Shared\_Error404.cshtml" />
+    <Content Include="Views\Product\Bionic.cshtml" />
+    <Content Include="Views\Product\OutwardHound.cshtml" />
+    <Content Include="Views\Product\Petstages.cshtml" />
+    <Content Include="Views\Product\PlanetDog.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
