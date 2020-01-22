@@ -123,6 +123,29 @@ else
                                     <img src=@Model.Photo4 class="img-responsive carousel-size img-fluid" alt="...">
                                 </div>
                             }
+                            else if (Model.countPhotos == 2)
+                            {
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                </ol>
+                                <div class="carousel-item active">
+                                    <img src=@Model.Photo1 class="img-responsive carousel-size img-fluid" alt="...">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src=@Model.Photo2 class="img-responsive carousel-size img-fluid" alt="...">
+                                </div>
+                            }
+                            else if (Model.countPhotos == 1)
+                            {
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    
+                                </ol>
+                                <div class="carousel-item active">
+                                    <img src=@Model.Photo1 class="img-responsive carousel-size img-fluid" alt="...">
+                                </div>
+                            }
                             else if (Model.countPhotos == 5)
                             {
                                 <ol class="carousel-indicators">

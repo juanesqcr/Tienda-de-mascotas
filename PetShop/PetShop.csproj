@@ -303,10 +303,11 @@
     <Content Include="Views\MainMenu\Productos.cshtml" />
     <Content Include="Views\Product\Index.cshtml" />
     <Content Include="Views\Shared\_Error404.cshtml" />
-    <Content Include="Views\Product\Bionic.cshtml" />
-    <Content Include="Views\Product\OutwardHound.cshtml" />
-    <Content Include="Views\Product\Petstages.cshtml" />
-    <Content Include="Views\Product\PlanetDog.cshtml" />
+    <Content Include="Views\MainMenu\Bionic.cshtml" />
+    <Content Include="Views\MainMenu\PlanetDog.cshtml" />
+    <Content Include="Views\MainMenu\Petstage.cshtml" />
+    <Content Include="Views\MainMenu\OutwardHound.cshtml" />
+    <Content Include="Views\MainMenu\Menu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

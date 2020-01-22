@@ -150,7 +150,6 @@ D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\System.Web.We
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\Newtonsoft.Json.xml
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\Antlr3.Runtime.pdb
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\obj\Debug\PetShop.csproj.CoreCompileInputs.cache
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\obj\Debug\PetShop.csproj.CopyComplete
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\obj\Debug\PetShop.dll
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\obj\Debug\PetShop.pdb

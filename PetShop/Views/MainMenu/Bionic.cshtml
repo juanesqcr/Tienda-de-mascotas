@@ -1,0 +1,111 @@
+﻿
+@{
+    ViewBag.Title = "Bionic";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <!--Links para bootstrap-->
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.min.css" />
+
+    <!--Mis links Css-->
+    <link href="~/Content/CSS/GeneralStyles.css" type="text/css" rel="stylesheet" />
+    <link href="~/Content/CSS/Productos.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container container-custom pt-60">
+        <img src="~/Content/Imagenes/perro-jugando-con-pelota-1.jpg" alt="Alternate Text" class="img-size img-fluid" />
+        <h2>Bionic</h2>
+
+        <!--Nivel 1-->
+        <h1>Productos</h1>
+        <!--start row-->
+        <div class="row">
+            <!--Juguete 1-->
+            <!--card-->
+            <div class="container page-wrapper col-3">
+                <div class="row">
+                    <div class="page-inner border-delineado">
+                        <div class="col-4">
+                            <div class="el-wrapper">
+                                <div class="box-up">
+                                    <img class="img img-fluid" src="~/Images/Products/Bionic/b01n0dpiwr.main.jpg" alt="">
+                                    <div class="img-info">
+                                        <div class="info-inner">
+                                            <span class="p-name">Bionic Urban Stick</span>
+                                            <span class="p-company">El Bionic Urban Stick está hecho con una durabilidad inigualable y doble compartimiento para golosinas para mantenerlos felices y ocupados durante más tiempo.</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="box-down">
+                                    <div class="h-bg">
+                                        <div class="h-bg-inner"></div>
+                                    </div>
+
+                                    <a class="cart" href="/Product/1">
+                                        <span class="price">₡7750</span>
+                                        <span class="add-to-cart">
+                                            <span class="txt">Ver Detalles</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end card-->
+            <!--card-->
+            <!--Juguete 2-->
+            <!--card-->
+            <div class="container page-wrapper col-3">
+                <div class="row">
+                    <div class="page-inner border-delineado">
+                        <div class="col-4">
+                            <div class="el-wrapper">
+                                <div class="box-up">
+                                    <img class="img img-fluid" src="~/Images/Products/Bionic/b01mqiwgvc.main_1.jpg" alt="">
+                                    <div class="img-info">
+                                        <div class="info-inner">
+                                            <span class="p-name">Bionic Urban Stick</span>
+                                            <span class="p-company">El Bionic Urban Stick está hecho con una durabilidad inigualable y doble compartimiento para golosinas para mantenerlos felices y ocupados durante más tiempo.</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="box-down">
+                                    <div class="h-bg">
+                                        <div class="h-bg-inner"></div>
+                                    </div>
+
+                                    <a class="cart" href="/Product/1">
+                                        <span class="price">₡7750</span>
+                                        <span class="add-to-cart">
+                                            <span class="txt">Ver Detalles</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end card-->
+            <!--card-->
+
+        </div>
+        <!--end row-->
+
+    </div>
+    <script src="~/Scripts/jquery-3.4.1.slim.js"></script>
+    <script src="~/Scripts/popper.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

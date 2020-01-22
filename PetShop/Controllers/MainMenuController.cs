@@ -13,7 +13,10 @@ namespace PetShop.Controllers
         {
             return View();
         }
-
+        public ActionResult Menu()
+        {
+            return View();
+        }
         public ActionResult About()
         {
             return View();
@@ -32,7 +35,22 @@ namespace PetShop.Controllers
         {
             return View();
         }
-
+        public ActionResult Bionic()
+        {
+            return View();
+        }
+        public ActionResult PlanetDog()
+        {
+            return View();
+        }
+        public ActionResult Petstage()
+        {
+            return View();
+        }
+        public ActionResult OutwardHound()
+        {
+            return View();
+        }
 
     }
 }
