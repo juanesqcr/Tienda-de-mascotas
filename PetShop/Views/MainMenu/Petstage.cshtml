@@ -1,8 +1,107 @@
 ﻿
 @{
-    ViewBag.Title = "Petstage";
+    ViewBag.Title = "Productos de Pet Stage";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Petstage</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <!--Links para bootstrap-->
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.min.css" />
+
+    <!--Mis links Css-->
+    <link href="~/Content/CSS/GeneralStyles.css" type="text/css" rel="stylesheet" />
+    <link href="~/Content/CSS/Productos.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container container-custom pt-60">
+        <img src="~/Content/Imagenes/perro-jugando-con-pelota-1.jpg" alt="Alternate Text" class="img-size img-fluid" />
+        <h1>Pet Stage</h1>
+
+        <!--Nivel 1-->
+        <!--start row-->
+        <div class="row">
+
+            <!--card-->
+            <div class="container page-wrapper col-3">
+                <div class="row">
+                    <div class="page-inner border-delineado">
+                        <div class="col-4">
+                            <div class="el-wrapper">
+                                <div class="box-up">
+                                    <img class="img img-fluid" src="~/Images/Products/Petstages/petstages-wobble-pond-cat-toy.jpg" alt="">
+                                    <div class="img-info">
+                                        <div class="info-inner">
+                                            <span class="p-name">Hide & Seek Wobble Pond</span>
+                                            <span class="p-company">Un rascador de gatos diseñado para atraer y entretener a su gato</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="box-down">
+                                    <div class="h-bg">
+                                        <div class="h-bg-inner"></div>
+                                    </div>
+
+                                    <a class="cart" href="/Product/400">
+                                        <span class="price">₡7750</span>
+                                        <span class="add-to-cart">
+                                            <span class="txt">Ver Detalles</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end card-->
+            <!--card-->
+            <div class="container page-wrapper col-3">
+                <div class="row">
+                    <div class="page-inner border-delineado">
+                        <div class="col-4">
+                            <div class="el-wrapper">
+                                <div class="box-up">
+                                    <img class="img img-fluid" src="~/Images/Products/Petstages/petstages-peekin-pals-interactive-cat-toy.jpg" alt="">
+                                    <div class="img-info">
+                                        <div class="info-inner">
+                                            <span class="p-name">Peekin Pals</span>
+                                            <span class="p-company">Tu gatito se enfrenta al famoso juego de golpea al topo, este tipo de caza interactivo le atrae con figuras que rebotan y se menean.</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="box-down">
+                                    <div class="h-bg">
+                                        <div class="h-bg-inner"></div>
+                                    </div>
+
+                                    <a class="cart" href="/Product/401">
+                                        <span class="price">₡7750</span>
+                                        <span class="add-to-cart">
+                                            <span class="txt">Ver Detalles</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end card-->
+        </div>
+        <!--end row-->
+
+    </div>
+    <script src="~/Scripts/jquery-3.4.1.slim.js"></script>
+    <script src="~/Scripts/popper.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
 
