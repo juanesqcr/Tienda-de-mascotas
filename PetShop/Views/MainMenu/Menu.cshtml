@@ -18,52 +18,44 @@
     <!--Mis links Css-->
     <link href="~/Content/CSS/GeneralStyles.css" type="text/css" rel="stylesheet" />
     <link href="~/Content/CSS/Productos.css" type="text/css" rel="stylesheet" />
+    <link href="~/Content/CSS/MainMenu.css" type="text/css" rel="stylesheet" />
+
 </head>
 <body>
-    <div class="container container-custom pt-60">
-        <img src="~/Images/Decoration/active-adorable-animal-1485637 (2).jpg" alt="Alternate Text" class="img-size" />
-        <!--Nivel 1-->
-        <h1>Nuestras Marcas</h1>
-        <!--start row-->
-        <div class="row">
-            <!--Juguete 1-->
-            <!--card-->
-            <div class="container page-wrapper col-3">
-                <div class="row">
-                    <div class="page-inner border-delineado">
-                        <div class="col-4">
-                            <div class="el-wrapper">
-                                <div class="box-up">
-                                    <img class="img img-fluid" src="~/Images/Products/Bionic/b01n0dpiwr.main.jpg" alt="">
-                                    <div class="img-info">
-                                        <div class="info-inner">
-                                            <span class="p-name">Bionic Urban Stick</span>
-                                            <span class="p-company">El Bionic Urban Stick está hecho con una durabilidad inigualable y doble compartimiento para golosinas para mantenerlos felices y ocupados durante más tiempo.</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="box-down">
-                                    <div class="h-bg">
-                                        <div class="h-bg-inner"></div>
-                                    </div>
-
-                                    <a class="cart" href="/Product/100">
-                                        <span class="price">₡7750.00</span>
-                                        <span class="add-to-cart">
-                                            <span class="txt">Ver Detalles</span>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="container">
+        <h1 class="bodyProductos">Todas nuestras marcas</h1>
+        <div class="row pt-5">
+            <div class="col-sm ">
+                <a href="@Url.Action("Bionic")">
+                    <img src="~/Images/Logos/Logo Bionic.png" alt="Alternate Text" class="imgMiddle" />
+                </a>
             </div>
-
+            <div class="col-sm">
+                <a href="@Url.Action("Productos")">
+                    <img src="~/Images/Logos/ninaottossonlogo.png" alt="Alternate Text" class="imgMiddle" />
+                </a>
+            </div>
+            <div class="col-sm">
+                <a href="@Url.Action("OutwardHound")">
+                    <img src="~/Images/Logos/outward-hound.png" alt="Alternate Text" class="imgMiddle" />
+                </a>
+            </div>
+            <div class="col-sm">
+                <a href="@Url.Action("Petstage")">
+                    <img src="~/Images/Logos/petstages.png" alt="Alternate Text" class="imgMiddle" />
+                </a>
+            </div>
+            <div class="col-sm">
+                <a href="@Url.Action("PlanetDog")">
+                    <img src="~/Images/Logos/planet-dog.png" alt="Alternate Text" class="imgMiddle" />
+                </a>
+            </div>
         </div>
-        <script src="~/Scripts/jquery-3.4.1.slim.js"></script>
-        <script src="~/Scripts/popper.min.js"></script>
-        <script src="~/Scripts/bootstrap.min.js"></script>
+    </div>
+    
+
+    <script src="~/Scripts/jquery-3.4.1.slim.js"></script>
+    <script src="~/Scripts/popper.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
 </body>
 </html>

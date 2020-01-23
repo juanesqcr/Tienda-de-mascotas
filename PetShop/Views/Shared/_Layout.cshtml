@@ -30,27 +30,19 @@
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto items-juntos">
 
-                        <li class="nav-item">
-                            <div class="dropdown show" style="margin-top:2px;">
-                                <a class="btn  dropdown-toggle" href="@Url.Action("Bionic", "MainMenu")" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Nuestros Productos
-                                </a>
-
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" style="color:black;" href="@Url.Action("Bionic", "MainMenu")">Bionic</a>
-                                    <a class="dropdown-item" style="color:black;" href="@Url.Action("Productos", "MainMenu")">Nina Ottossen</a>
-                                    <a class="dropdown-item" style="color:black;" href="@Url.Action("OutwardHound", "MainMenu")">Outward Hound</a>
-                                    <a class="dropdown-item" style="color:black;" href="@Url.Action("PetStage", "MainMenu")">Pet Stage</a>
-                                    <a class="dropdown-item" style="color:black;" href="@Url.Action("PlanetDog", "MainMenu")">Planet Dog</a>
-                                </div>
-                            </div>
-
-
+                        <li>
+                            <a href="@Url.Action("Menu", "MainMenu")"" onMouseover="this.style.color='black'" onMouseout="this.style.color='white'">Productos &#9662;</a>
+                            <ul class="dropdown">
+                                <a class="dropdown-item" style="color:black;" onMouseover="this.style.color='grey'" onMouseout="this.style.color='black'" href="@Url.Action("Bionic", "MainMenu")">Bionic</a>
+                                <a class="dropdown-item" style="color:black;" onMouseover="this.style.color='grey'" onMouseout="this.style.color='black'" href="@Url.Action("Productos", "MainMenu")">Nina Ottossen</a>
+                                <a class="dropdown-item" style="color:black;" onMouseover="this.style.color='grey'" onMouseout="this.style.color='black'" href="@Url.Action("OutwardHound", "MainMenu")">Outward Hound</a>
+                                <a class="dropdown-item" style="color:black;" onMouseover="this.style.color='grey'" onMouseout="this.style.color='black'" href="@Url.Action("PetStage", "MainMenu")">Pet Stage</a>
+                                <a class="dropdown-item" style="color:black;" onMouseover="this.style.color='grey'" onMouseout="this.style.color='black'" href="@Url.Action("PlanetDog", "MainMenu")">Planet Dog</a>
+                            </ul>
                         </li>
                         <li class="nav-item ">
                             <a class="btn nav-link" onMouseover="this.style.color='black'" onMouseout="this.style.color='white'" style="color:white; " href="@Url.Action("Contacto", "MainMenu")">Contactenos</a>
 
-                            @*<span class="nav-link linea">@Html.ActionLink("Contactenos", "Contacto", "MainMenu", new { @class = "elements" }, null)</span>*@
                         </li>
                         <li class="nav-item">
                             <a class="btn nav-link" onMouseover="this.style.color='black'" onMouseout="this.style.color='white'" style="color:white; " href="@Url.Action("Contacto", "MainMenu")">Nosotros</a>
