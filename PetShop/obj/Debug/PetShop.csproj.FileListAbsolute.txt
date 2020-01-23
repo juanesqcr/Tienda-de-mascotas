@@ -153,4 +153,3 @@ D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\bin\Microsoft.Cod
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\obj\Debug\PetShop.csproj.CopyComplete
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\obj\Debug\PetShop.dll
 D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\obj\Debug\PetShop.pdb
-D:\Repository Visual Studio\PetShop\Tienda-de-mascotas\PetShop\obj\Debug\PetShop.csprojAssemblyReference.cache

@@ -46,7 +46,7 @@ namespace PetShop.Models
         {
              
                 //string pathServer = new  System.Web.HttpContext.Current.Server.MapPath("/Content/Products.json");
-                var result = System.IO.File.ReadAllText(JsonPath);
+                var result = System.IO.File.ReadAllText(JsonPath, System.Text.Encoding.UTF7);
                 return result;
 
  
