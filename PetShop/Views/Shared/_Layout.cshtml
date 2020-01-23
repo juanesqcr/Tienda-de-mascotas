@@ -6,6 +6,7 @@
     <title>@ViewBag.Title</title>
 
     <link rel="stylesheet" type="text/css" href="~/Content/CSS/GeneralStyles.css" />
+    <link href="~/Content/CSS/Productos.css" type="text/css" rel="stylesheet" />
 
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
     <script src="~/Scripts/jquery-3.4.1.slim.min.js"></script>
@@ -13,15 +14,14 @@
     <script src="~/Scripts/bootstrap.min.js"></script>
 
 
-
 </head>
 <body>
     <div class="navbarCustom">
         <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="container">
-                
-                    <span class="navbar-brand item-Brand">@Html.ActionLink("Smarty Paws", "Index", "MainMenu", new { @class = "elements" }, null)</span>
-                    
+
+                <span class="navbar-brand item-Brand">@Html.ActionLink("Smarty Paws", "Index", "MainMenu", new { @class = "elements" }, null)</span>
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -30,13 +30,30 @@
                     <ul class="navbar-nav mr-auto items-juntos">
 
                         <li class="nav-item">
-                            <span class="nav-link linea">@Html.ActionLink("Productos", "Productos", "MainMenu", new { @class = "elements" }, null)</span>
+                            <div class="dropdown show" style="margin-top:2px;">
+                                <a class="btn  dropdown-toggle" href="@Url.Action("Bionic", "MainMenu")" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Nuestros Productos
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" style="color:black;" href="@Url.Action("Bionic", "MainMenu")">Bionic</a>
+                                    <a class="dropdown-item" style="color:black;" href="@Url.Action("Productos", "MainMenu")">Nina Ottossen</a>
+                                    <a class="dropdown-item" style="color:black;" href="@Url.Action("OutwardHound", "MainMenu")">Outward Hound</a>
+                                    <a class="dropdown-item" style="color:black;" href="@Url.Action("PetStage", "MainMenu")">Pet Stage</a>
+                                    <a class="dropdown-item" style="color:black;" href="@Url.Action("PlanetDog", "MainMenu")">Planet Dog</a>
+                                </div>
+                            </div>
+                           
+                           
+                        </li>
+                        <li class="nav-item ">
+                            <a class="btn nav-link dmHover" style="color:white; " href="@Url.Action("Contacto", "MainMenu")">Contactenos</a>
+
+                            @*<span class="nav-link linea">@Html.ActionLink("Contactenos", "Contacto", "MainMenu", new { @class = "elements" }, null)</span>*@
                         </li>
                         <li class="nav-item">
-                            <span class="nav-link linea">@Html.ActionLink("Contactenos", "Contacto", "MainMenu", new { @class = "elements" }, null)</span>
-                        </li>
-                        <li class="nav-item">
-                            <span class="nav-link ">@Html.ActionLink("Nosotros", "About", "MainMenu", new { @class = "elements" }, null)</span>
+                            <a class="btn nav-link" style="color:white; " href="@Url.Action("Contacto", "MainMenu")">Nosotros</a>
+
                         </li>
                     </ul>
                 </div>
@@ -54,8 +71,8 @@
                     <div class="text-center center-block">
                         <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
                         <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
-                        <a href="https://instagram.com/"><i id="social-gp" class="fa fa-instagram fa-3x social""></i></a>
-                       
+                        <a href="https://instagram.com/"><i id="social-gp" class="fa fa-instagram fa-3x social" "></i></a>
+
                     </div>
                 </div>
             </section>
@@ -63,6 +80,10 @@
 
 
     </div>
+    <!--Scripts-->
+    <script src="~/Scripts/jquery-3.4.1.slim.js"></script>
+    <script src="~/Scripts/popper.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
     @RenderSection("scripts", required: false)
 </body>
 </html>
