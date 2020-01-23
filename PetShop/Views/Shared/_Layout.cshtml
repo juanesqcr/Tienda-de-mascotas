@@ -20,7 +20,8 @@
         <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="container">
 
-                <span class="navbar-brand item-Brand">@Html.ActionLink("Smarty Paws", "Index", "MainMenu", new { @class = "elements" }, null)</span>
+               @* <span class="navbar-brand item-Brand">@Html.ActionLink("Smarty Paws", "Index", "MainMenu", new { @class = "elements" }, null)</span>*@
+                <a class="navbar-brand item-Brand" onMouseover="this.style.color='black'" onMouseout="this.style.color='white'" style="color:white;" href="@Url.Action("Index", "MainMenu")">Smarty Paws</a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -43,16 +44,16 @@
                                     <a class="dropdown-item" style="color:black;" href="@Url.Action("PlanetDog", "MainMenu")">Planet Dog</a>
                                 </div>
                             </div>
-                           
-                           
+
+
                         </li>
                         <li class="nav-item ">
-                            <a class="btn nav-link dmHover" style="color:white; " href="@Url.Action("Contacto", "MainMenu")">Contactenos</a>
+                            <a class="btn nav-link" onMouseover="this.style.color='black'" onMouseout="this.style.color='white'" style="color:white; " href="@Url.Action("Contacto", "MainMenu")">Contactenos</a>
 
                             @*<span class="nav-link linea">@Html.ActionLink("Contactenos", "Contacto", "MainMenu", new { @class = "elements" }, null)</span>*@
                         </li>
                         <li class="nav-item">
-                            <a class="btn nav-link" style="color:white; " href="@Url.Action("Contacto", "MainMenu")">Nosotros</a>
+                            <a class="btn nav-link" onMouseover="this.style.color='black'" onMouseout="this.style.color='white'" style="color:white; " href="@Url.Action("Contacto", "MainMenu")">Nosotros</a>
 
                         </li>
                     </ul>

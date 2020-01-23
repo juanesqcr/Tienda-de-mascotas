@@ -282,13 +282,3 @@ html {
             white-space: nowrap;
         }
 
-.dmHover {
-    color: white;
-    background-color: green;
-}
-
-    .dmHover:hover {
-        background-color: white;
-        border: 2px solid green;
-        color: green;
-    }
