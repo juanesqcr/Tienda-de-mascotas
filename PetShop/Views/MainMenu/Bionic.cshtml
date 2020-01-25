@@ -17,13 +17,15 @@
     <!--Mis links Css-->
     <link href="~/Content/CSS/GeneralStyles.css" type="text/css" rel="stylesheet" />
     <link href="~/Content/CSS/Productos.css" type="text/css" rel="stylesheet" />
+    <link href="~/Content/CSS/MainMenu.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
     <div class="container container-custom pt-60">
-        <img src="~/Content/Imagenes/perro-jugando-con-pelota-1.jpg" alt="Alternate Text" class="img-size img-fluid" />
-
+       @* <img src="~/Content/Imagenes/perro-jugando-con-pelota-1.jpg" alt="Alternate Text" class="img-size img-fluid" />*@
+        <div class="logoProducto">
+            <img src="~/Images/Logos/Logo Bionic.png"  class="imgLogoProducto" alt="Alternate Text" />
+        </div>
         <!--Nivel 1-->
-        <h1>Bionic</h1>
         <!--start row-->
         <div class="row">
             <!--Juguete 1-->
@@ -33,12 +35,14 @@
                     <div class="page-inner border-delineado">
                         <div class="col-4">
                             <div class="el-wrapper">
+                                <h1 class="p-name">Bionic Urban Stick</h1>
                                 <div class="box-up">
                                     <img class="img img-fluid" src="~/Images/Products/Bionic/b01n0dpiwr.main.jpg" alt="">
                                     <div class="img-info">
-                                        <div class="info-inner">
-                                            <span class="p-name">Bionic Urban Stick</span>
+                                        <div class="a-size">
                                             <span class="p-company">El Bionic Urban Stick está hecho con una durabilidad inigualable y doble compartimiento para golosinas para mantenerlos felices y ocupados durante más tiempo.</span>
+                                            <br />
+                                            <br />
                                         </div>
                                     </div>
                                 </div>
@@ -98,7 +102,27 @@
             </div>
             <!--end card-->
             <!--card-->
-
+            <div class="container page-wrapper middleMenu">
+                <div class="containerImgMiddle">
+                    <!-- <img src="~/Images/Logos/ninaottossonlogo.png" alt="Alternate Text" class="imgMiddle" />-->
+                    <a href="@Url.Action("Bionic")">
+                        <img src="~/Images/Logos/Logo Bionic.png" alt="Alternate Text" class="imgMiddle" />
+                    </a>
+                    <a href="@Url.Action("Productos")">
+                        <img src="~/Images/Logos/ninaottossonlogo1.png" alt="Alternate Text" class="imgMiddle" />
+                    </a>
+                    <a href="@Url.Action("OutwardHound")">
+                        <img src="~/Images/Logos/outward-hound.png" alt="Alternate Text" class="imgMiddle" />
+                    </a>
+                    <a href="@Url.Action("Petstage")">
+                        <img src="~/Images/Logos/petstages.png" alt="Alternate Text" class="imgMiddle" />
+                    </a>
+                    <a href="@Url.Action("PlanetDog")">
+                        <img src="~/Images/Logos/planet-dog.png" alt="Alternate Text" class="imgMiddle" />
+                    </a>
+                    <!-- <img src="~/Images/Logos/ninaottossonlogo.png" alt="Alternate Text" class="imgMiddle" />-->
+                </div>
+            </div>
         </div>
         <!--end row-->
 

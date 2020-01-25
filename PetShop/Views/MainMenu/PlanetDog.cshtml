@@ -16,12 +16,14 @@
 
     <!--Mis links Css-->
     <link href="~/Content/CSS/GeneralStyles.css" type="text/css" rel="stylesheet" />
+    <link href="~/Content/CSS/MainMenu.css" type="text/css" rel="stylesheet" />
     <link href="~/Content/CSS/Productos.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
     <div class="container container-custom pt-60">
-        <img src="~/Content/Imagenes/perro-jugando-con-pelota-1.jpg" alt="Alternate Text" class="img-size img-fluid" />
-        <h1>Planet Dog</h1>
+        <div class="logoProducto">
+            <img src="~/Images/Logos/planet-dog.png" class="imgLogoProductoPlanet" alt="Alternate Text" />
+        </div>
 
         <!--Nivel 1-->
         <!--start row-->
@@ -33,12 +35,16 @@
                     <div class="page-inner border-delineado">
                         <div class="col-4">
                             <div class="el-wrapper">
+                                <h1 class="p-name">Orbee-Tuff Recycle Ball</h1>
                                 <div class="box-up">
                                     <img class="img img-fluid" src="~/Images/Products/PlanetDog/68731_planet_dog_recycle_ball_value_pack.jpg" alt="">
                                     <div class="img-info">
                                         <div class="info-inner">
-                                            <span class="p-name">Orbee-Tuff Recycle Ball</span>
+                                        </div>
+                                        <div class="a-size">
                                             <span class="p-company">Nuestro paquete Value incluye 2 bolas de 2.5 " cada una, atadas con una cuerda</span>
+                                            <br />
+                                            <br />
                                         </div>
                                     </div>
                                 </div>
@@ -67,12 +73,16 @@
                     <div class="page-inner border-delineado">
                         <div class="col-4">
                             <div class="el-wrapper">
+                                <h1 class="p-name">Orbee-Tuff Recycle Bone</h1>
                                 <div class="box-up">
                                     <img class="img img-fluid" src="~/Images/Products/PlanetDog/68729.jpg" alt="">
                                     <div class="img-info">
                                         <div class="info-inner">
-                                            <span class="p-name">Orbee-Tuff Recycle Bone</span>
+                                        </div>
+                                        <div class="a-size">
                                             <span class="p-company">Hueso de material reciclado. Mide 6.5  de largo.</span>
+                                            <br />
+                                            <br />
                                         </div>
                                     </div>
                                 </div>
@@ -97,7 +107,27 @@
             <!--end card-->
         </div>
         <!--end row-->
-
+        <div class="container page-wrapper middleMenu">
+            <div class="containerImgMiddle">
+                <!-- <img src="~/Images/Logos/ninaottossonlogo.png" alt="Alternate Text" class="imgMiddle" />-->
+                <a href="@Url.Action("Bionic")">
+                    <img src="~/Images/Logos/Logo Bionic.png" alt="Alternate Text" class="imgMiddle" />
+                </a>
+                <a href="@Url.Action("Productos")">
+                    <img src="~/Images/Logos/ninaottossonlogo1.png" alt="Alternate Text" class="imgMiddle" />
+                </a>
+                <a href="@Url.Action("OutwardHound")">
+                    <img src="~/Images/Logos/outward-hound.png" alt="Alternate Text" class="imgMiddle" />
+                </a>
+                <a href="@Url.Action("Petstage")">
+                    <img src="~/Images/Logos/petstages.png" alt="Alternate Text" class="imgMiddle" />
+                </a>
+                <a href="@Url.Action("PlanetDog")">
+                    <img src="~/Images/Logos/planet-dog.png" alt="Alternate Text" class="imgMiddle" />
+                </a>
+                <!-- <img src="~/Images/Logos/ninaottossonlogo.png" alt="Alternate Text" class="imgMiddle" />-->
+            </div>
+        </div>
     </div>
     <script src="~/Scripts/jquery-3.4.1.slim.js"></script>
     <script src="~/Scripts/popper.min.js"></script>

@@ -4,10 +4,10 @@
 }
 
 .middleMenu {
-    margin-top:40px;
-    height:100px;
+    margin-top: 40px;
+    height: 100px;
     background-color: #007DB4;
-
+    border-radius: 5px;
 }
 
 .containerImgMiddle{

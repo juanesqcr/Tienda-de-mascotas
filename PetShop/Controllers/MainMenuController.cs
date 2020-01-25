@@ -51,6 +51,9 @@ namespace PetShop.Controllers
         {
             return View();
         }
-
+        public ActionResult Pagos()
+        {
+            return View();
+        }
     }
 }

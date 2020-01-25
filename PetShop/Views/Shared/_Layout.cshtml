@@ -13,6 +13,8 @@
     <script src="~/Scripts/popper.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
 
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
 
 </head>
 <body>
@@ -20,8 +22,10 @@
         <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="container">
 
-               @* <span class="navbar-brand item-Brand">@Html.ActionLink("Smarty Paws", "Index", "MainMenu", new { @class = "elements" }, null)</span>*@
-                <a class="navbar-brand item-Brand" onMouseover="this.style.color='black'" onMouseout="this.style.color='white'" style="color:white;" href="@Url.Action("Index", "MainMenu")">Smarty Paws</a>
+                <a class="navbar-brand item-Brand" onMouseover="this.style.color='black'" onMouseout="this.style.color='white'" style="color:white;" href="@Url.Action("Index", "MainMenu")">
+                    <img src="~/Images/Logos/planet-dog.png" class="navbar-logo" alt="Alternate Text" />
+                    Smarty Paws
+                </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -31,21 +35,21 @@
                     <ul class="navbar-nav mr-auto items-juntos">
 
                         <li>
-                            <a href="@Url.Action("Menu", "MainMenu")"" onMouseover="this.style.color='black'" onMouseout="this.style.color='white'">Productos &#9662;</a>
+                            <a href="@Url.Action("Menu", "MainMenu")" onMouseover="this.style.color='black'" onMouseout="this.style.color='white'">Productos &#9662;</a>
                             <ul class="dropdown">
-                                <a class="dropdown-item" style="color:black;" onMouseover="this.style.color='grey'" onMouseout="this.style.color='black'" href="@Url.Action("Bionic", "MainMenu")">Bionic</a>
-                                <a class="dropdown-item" style="color:black;" onMouseover="this.style.color='grey'" onMouseout="this.style.color='black'" href="@Url.Action("Productos", "MainMenu")">Nina Ottossen</a>
-                                <a class="dropdown-item" style="color:black;" onMouseover="this.style.color='grey'" onMouseout="this.style.color='black'" href="@Url.Action("OutwardHound", "MainMenu")">Outward Hound</a>
-                                <a class="dropdown-item" style="color:black;" onMouseover="this.style.color='grey'" onMouseout="this.style.color='black'" href="@Url.Action("PetStage", "MainMenu")">Pet Stage</a>
-                                <a class="dropdown-item" style="color:black;" onMouseover="this.style.color='grey'" onMouseout="this.style.color='black'" href="@Url.Action("PlanetDog", "MainMenu")">Planet Dog</a>
+                                <a class="dropdown-item" style="color:rgb(31,47,125);" onMouseover="this.style.color='rgb(0,125,180)'" onMouseout="this.style.color='rgb(31,47,125)'" href="@Url.Action("Bionic", "MainMenu")">Bionic</a>
+                                <a class="dropdown-item" style="color:rgb(31,47,125);" onMouseover="this.style.color='rgb(0,125,180)'" onMouseout="this.style.color='rgb(31,47,125)'" href="@Url.Action("Productos", "MainMenu")">Nina Ottossen</a>
+                                <a class="dropdown-item" style="color:rgb(31,47,125);" onMouseover="this.style.color='rgb(0,125,180)'" onMouseout="this.style.color='rgb(31,47,125)'" href="@Url.Action("OutwardHound", "MainMenu")">Outward Hound</a>
+                                <a class="dropdown-item" style="color:rgb(31,47,125);" onMouseover="this.style.color='rgb(0,125,180)'" onMouseout="this.style.color='rgb(31,47,125)'" href="@Url.Action("PetStage", "MainMenu")">Pet Stage</a>
+                                <a class="dropdown-item" style="color:rgb(31,47,125);" onMouseover="this.style.color='rgb(0,125,180)'" onMouseout="this.style.color='rgb(31,47,125)'" href="@Url.Action("PlanetDog", "MainMenu")">Planet Dog</a>
                             </ul>
                         </li>
                         <li class="nav-item ">
                             <a class="btn nav-link" onMouseover="this.style.color='black'" onMouseout="this.style.color='white'" style="color:white; " href="@Url.Action("Contacto", "MainMenu")">Contactenos</a>
 
                         </li>
-                        <li class="nav-item">
-                            <a class="btn nav-link" onMouseover="this.style.color='black'" onMouseout="this.style.color='white'" style="color:white; " href="@Url.Action("Contacto", "MainMenu")">Nosotros</a>
+                        <li class="nav-item ">
+                            <a class="btn nav-link" onMouseover="this.style.color='black'" onMouseout="this.style.color='white'" style="color:white; " href="@Url.Action("Pagos", "MainMenu")">Metodos de Pago</a>
 
                         </li>
                     </ul>
@@ -58,13 +62,11 @@
         <hr />
         <footer>
             <section id="lab_social_icon_footer">
-                <!-- Include Font Awesome Stylesheet in Header -->
-                <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
                 <div class="container">
                     <div class="text-center center-block">
-                        <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-                        <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
-                        <a href="https://instagram.com/"><i id="social-gp" class="fa fa-instagram fa-3x social" "></i></a>
+                        <a href="https://www.facebook.com/SmartyPawscr/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                       @* <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>*@
+                        <a href="https://www.instagram.com/smartypawscr/"><i id="social-gp" class="fa fa-instagram fa-3x social" "></i></a>
 
                     </div>
                 </div>

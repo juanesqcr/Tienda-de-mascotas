@@ -157,6 +157,7 @@
     <Content Include="Content\CSS\Error404.css" />
     <Content Include="Content\CSS\GeneralStyles.css" />
     <Content Include="Content\CSS\MainMenu.css" />
+    <Content Include="Content\CSS\pago.css" />
     <Content Include="Content\CSS\SingleProduct.css" />
     <Content Include="Content\CSS\Productos.css" />
     <Content Include="Content\Imagenes\imagen-1.jpg" />
@@ -173,9 +174,11 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Images\Decoration\active-adorable-animal-1485637 %282%29.jpg" />
+    <Content Include="Images\Decoration\adorable-animal-blur-406014.jpg" />
     <Content Include="Images\Decoration\animal-blur-canine-551628.jpg" />
     <Content Include="Images\Errors\depositphotos_179080780-stock-illustration-error-404-creative-illustration-dachshund.jpg" />
-    <Content Include="Images\Logos\ninaottossonlogo.png" />
+    <Content Include="Images\Logos\ninaottossonlogo1.png" />
+    <Content Include="Images\Logos\outward-hound.png" />
     <Content Include="Images\Products\Bionic\b01mqiwgvc.main_1.jpg" />
     <Content Include="Images\Products\Bionic\b01n0dpiwr.main.jpg" />
     <Content Include="Images\Products\Bionic\b01n2ga03x.main_1.jpg" />
@@ -225,7 +228,6 @@
     <Content Include="Images\Products\Outward-Hound\51006-fun-feeder-mini-teal-dtc_2.jpg" />
     <Content Include="Images\Products\Outward-Hound\funfeeder_miniorng_1_1.jpg" />
     <Content Include="Images\Products\Outward-Hound\groupisland_funfeeder_1.jpg" />
-    <Content Include="Images\Logos\outward-hound.png" />
     <Content Include="Images\Products\Outward-Hound\rc7_4783_5.jpg" />
     <Content Include="Images\Products\Petstages\peekin-pals-interactive-cat-toy-petstages.jpg" />
     <Content Include="Images\Products\Petstages\petstages-peekin-pals-interactive-cat-toy.jpg" />
@@ -310,6 +312,7 @@
     <Content Include="Views\MainMenu\Petstage.cshtml" />
     <Content Include="Views\MainMenu\OutwardHound.cshtml" />
     <Content Include="Views\MainMenu\Menu.cshtml" />
+    <Content Include="Views\MainMenu\Pagos.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -15,6 +15,25 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.navbar-logo{
+    max-height:35px;
+    max-width:35px;
+}
+
+.logoProducto {
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+.imgLogoProducto {
+    width: 100%;
+    max-width:700px;
+}
+
+.imgLogoProductoPlanet {
+    width: 100%;
+    max-width: 450px;
+}
 
 .texto-centrado {
     position: absolute;

@@ -45,16 +45,23 @@ body {
 }
 
 .white_background {
-    padding: 1%;
+    padding: 1% ;
     background-color: #FFFFFF;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-#lab_social_icon_footer {
-    padding: 40px 0;
-    background-color: #dedede;
+.white_background2 {
+    padding: 1% 1% 0% 1%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
+    #lab_social_icon_footer {
+        padding: 40px 0;
+        background-color: #dedede;
+    }
 
     #lab_social_icon_footer a {
         color: #333;
