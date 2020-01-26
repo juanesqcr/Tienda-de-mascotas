@@ -1,41 +1,143 @@
-﻿.carousel-size {
+﻿@media screen and (min-width: 1441px) {
+    .petStagePadding {
+        padding-top: 10%;
+    }
+
+    .maxHeightPlanetDog {
+        max-height: 93px;
+    }
+
+    .imgMiddleMenuIndex {
+        max-width: 200px;
+        opacity: 0.7;
+    }
+
+        .imgMiddleMenuIndex:hover {
+            opacity: 1;
+        }
+}
+
+/*@media screen and (min-width: 769px)  {
+    .petStagePadding {
+        padding-top: 8%;
+    }
+    .imgMiddleMenuIndex {
+        max-width: 300px;
+        opacity: 0.7;
+    }
+
+    .maxHeightPlanetDog{
+        max-height:93px;
+    }
+
+        .imgMiddleMenuIndex:hover {
+            opacity: 1;
+        }
+}*/
+
+@media screen and (min-width: 768px) {
+    .petStagePadding {
+        padding-top: 6%;
+    }
+
+    .petStagePaddingtops {
+        padding-top: 4%;
+    }
+
+    .paddingMenuMiddle {
+        padding-top: 4%;
+    }
+
+    .maxHeightPlanetDog {
+        max-height: 95px;
+    }
+
+    .imgMiddleMenuIndex {
+        max-width: 200px;
+        opacity: 0.7;
+    }
+
+        .imgMiddleMenuIndex:hover {
+            opacity: 1;
+        }
+
+    .link-icon {
+        background-image: url(../Imagenes/ninaottossonlogo.png);
+        max-height: 99px;
+        max-width: 226px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .petStagePadding {
+        padding-top: 8%;
+    }
+
+    .paddingMenuMiddle {
+        padding-top: 6%;
+    }
+
+    .petStagePaddingtops {
+        padding-top: 6%;
+    }
+
+    .maxHeightPlanetDog {
+        max-height: 130px;
+    }
+
+    .imgMiddleMenuIndex {
+        max-width: 300px;
+        opacity: 0.7;
+    }
+
+        .imgMiddleMenuIndex:hover {
+            opacity: 1;
+        }
+}
+
+@media screen and (max-width: 425px) {
+    .maxHeightPlanetDog {
+        max-height: 200px;
+    }
+}
+
+{
+}
+
+
+.carousel-size {
     height: 50%;
     width: 100%;
 }
 
 .middleMenu {
     margin-top: 40px;
-    height: 100px;
     background-color: #007DB4;
     border-radius: 5px;
 }
 
-.containerImgMiddle{
-    text-align:center;
+.containerImgMiddle {
+    text-align: center;
 }
 
-.imgMiddle {
-    max-width:200px;
+/*.imgMiddle {
+    max-width: 200px;
     max-height: 99px;
     opacity: 0.7;
 }
-    .imgMiddle:hover {
-        opacity: 1;    
-         
-    }
 
-.link-icon {
-    background-image: url(../Imagenes/ninaottossonlogo.png);
-    max-height:99px;
-    max-width:226px;
-}
+    .imgMiddle:hover {
+        opacity: 1;
+    }*/
+
+
 
 .cards_holder {
     margin-top: 1.5%;
 }
 
-.top-margin{
-    margin-top:40px;
+.top-margin {
+    margin-top: 40px;
 }
 
 .top-margin-cards {
@@ -47,9 +149,9 @@
     font-size: 0.9rem;
 }
 
-.img_padding{
-    padding-top:2%;
-    width:253px;
+.img_padding {
+    padding-top: 2%;
+    width: 253px;
     height: 258px;
 }
 
@@ -67,14 +169,14 @@
     color: #1F2F7D;
     font-size: 2.3rem;
     font-weight: bolder;
-    text-align:center;
+    text-align: center;
 }
 
 .titulo-secundario {
     color: #1F2F7D;
     font-size: 1.8rem;
     font-weight: bolder;
-    text-align:center;
+    text-align: center;
 }
 
 .parrafo {
@@ -82,13 +184,13 @@
     padding-left: 10px;
 }
 
-.img_info_general{
-    height:100%;
-    width:100%;
+.img_info_general {
+    height: 100%;
+    width: 100%;
 }
 
-.cards_margin{
-    margin-top:1%;
+.cards_margin {
+    margin-top: 1%;
 }
 
 /*Css de la cartas*/
@@ -119,4 +221,4 @@
         opacity: 0.7;
     }
 
-    /*Del la card de info de la empresa*/
+/*Del la card de info de la empresa*/

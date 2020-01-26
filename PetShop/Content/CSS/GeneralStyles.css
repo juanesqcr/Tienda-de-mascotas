@@ -1,31 +1,111 @@
 ﻿/*Aqui van los estilos generales como del navbar*/
+@media screen and (min-width: 1201px) {
+    .menuItem {
+    }
+
+    .menuPaddingL1 {
+        padding-top: 25%;
+    }
+    .imgMiddleMenu {
+        max-width: 350px;
+        opacity: 0.7;
+    }
+
+        .imgMiddleMenu:hover {
+            opacity: 1;
+        }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .menuPaddingL1 {
+        padding-top: 25%;
+    }
+
+    .menuItem {
+        padding-right: 5%;
+    }
+
+    .imgMiddleMenu {
+        max-width: 350px;
+        opacity: 0.7;
+    }
+
+        .imgMiddleMenu:hover {
+            opacity: 1;
+        }
+
+}
+
+@media screen and (max-width: 768px) {
+    .menuPaddingL2 {
+        padding-top: 25%;
+    }
+    .imgMiddleMenu {
+        max-width: 350px;
+        opacity: 0.7;
+    }
+
+        .imgMiddleMenu:hover {
+            opacity: 1;
+        }
+
+}
+@media screen and (max-width: 425px) {
+    .menuPaddingL3 {
+        padding-top: 10%;
+        padding-left: 15%;
+    }
+    .menuPaddingL2 {
+        padding-top: 10%;
+        padding-left: 15%;
+    }
+    .menuPaddingTop {
+        padding-left: 15%;
+    }
+    .imgMiddleMenu {
+        max-width: 300px;
+        opacity: 0.7;
+    }
+
+        .imgMiddleMenu:hover {
+            opacity: 1;
+        }
+
+}
+
+
+
 .navbarCustom {
     background-color: #007DB4;
-    position:fixed;
-    z-index:10;
-    width:100%;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
 }
 
 .items-juntos a {
     color: white;
     font-size: 100%;
 }
+
 .linea {
-    
     border-right: 0.5px solid;
     border-color: #E7E7E7;
 }
+
 .item-Brand a {
     color: white;
     font-size: 115%;
-
 }
 
 body {
     background-color: #F2F2F2;
     font-family: Noto Sans;
     text-align: justify;
-    
+}
+
+.menu {
+    text-align: justify;
 }
 
 .container {
@@ -50,7 +130,7 @@ body {
 }
 
 .white_background {
-    padding: 1% ;
+    padding: 1%;
     background-color: #FFFFFF;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -63,10 +143,10 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-    #lab_social_icon_footer {
-        padding: 40px 0;
-        background-color: #dedede;
-    }
+#lab_social_icon_footer {
+    padding: 40px 0;
+    background-color: #dedede;
+}
 
     #lab_social_icon_footer a {
         color: #333;
@@ -106,7 +186,7 @@ body {
     #lab_social_icon_footer #social-em:hover {
         color: #f39c12;
     }
-    /*dropdown menu*/
+/*dropdown menu*/
 ul {
     padding: 0;
     list-style: none;
