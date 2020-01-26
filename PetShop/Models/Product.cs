@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Web;
@@ -22,6 +23,7 @@ namespace PetShop.Models
         public string Photo5 { get; set; }
         public string Photo6 { get; set; }
         public double Price { get; set; }
+        public string FinalPrice { get { return Price.ToString("c"), CultureInfo.CurrentUICulture("es - CR") /*es - CR*/} }
         public double countCharacteristic { get; set; }
         public double countPhotos { get; set; }
         public string Video { get; set; }
