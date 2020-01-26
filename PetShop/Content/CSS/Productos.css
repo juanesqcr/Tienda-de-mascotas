@@ -27,12 +27,16 @@
 
 .imgLogoProducto {
     width: 100%;
-    max-width:700px;
+    max-width: 700px;
 }
 
 .imgLogoProductoPlanet {
     width: 100%;
     max-width: 450px;
+}
+.border-bt-img {
+    border-bottom: 1px solid rgb(0,125,180);
+    
 }
 
 .texto-centrado {
