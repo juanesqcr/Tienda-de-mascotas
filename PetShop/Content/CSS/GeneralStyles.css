@@ -40,6 +40,11 @@ body {
     padding-top: 60px;
 }
 
+.cBlue {
+    color: rgb(0,125,180);
+    font-weight: bold;
+}
+
 .pt-60 {
     padding-top: 51px;
 }
