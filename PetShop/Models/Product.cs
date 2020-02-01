@@ -23,7 +23,7 @@ namespace PetShop.Models
         public string Photo5 { get; set; }
         public string Photo6 { get; set; }
         public double Price { get; set; }
-        public string FinalPrice { get { return Price.ToString("c"), CultureInfo.CurrentUICulture("es - CR") /*es - CR*/} }
+        public string FinalPrice { get { return Price.ToString("c"); } }
         public double countCharacteristic { get; set; }
         public double countPhotos { get; set; }
         public string Video { get; set; }
@@ -46,12 +46,12 @@ namespace PetShop.Models
 
         private string GetJsonProducts()
         {
-             
-                //string pathServer = new  System.Web.HttpContext.Current.Server.MapPath("/Content/Products.json");
-                var result = System.IO.File.ReadAllText(JsonPath, System.Text.Encoding.UTF7);
-                return result;
 
- 
+            //string pathServer = new  System.Web.HttpContext.Current.Server.MapPath("/Content/Products.json");
+            var result = System.IO.File.ReadAllText(JsonPath, System.Text.Encoding.UTF7);
+            return result;
+
+
         }
 
     }
